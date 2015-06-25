@@ -99,10 +99,10 @@ section{
     margin-top: -60px;
 }
 
-@media (max-width: 1600px){
+@media (min-width: 1600px){
     #homeImg{
         position: absolute;
-        right: 0;
+        right: 10%;
         margin-top: -60px;
     }
 }
@@ -130,7 +130,12 @@ section{
     line-height: 22px;
 }
 
-
+#img2{
+    width: 80%;
+    display: block;
+    margin: 0px auto;
+    padding-top: 40px;
+}
 
 
 

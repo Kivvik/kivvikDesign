@@ -95,7 +95,7 @@ section{
 
 #homeImg{
     position: absolute;
-    left: 33%;
+    right: 0;
     margin-top: -60px;
 }
 

@@ -239,6 +239,7 @@ section{
 #section4{
     background: white;
     padding-bottom: 60px;
+    min-height: 800px;
 }
 
 @media (max-width: 414px){

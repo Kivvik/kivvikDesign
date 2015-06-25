@@ -151,12 +151,11 @@ section{
 
 #s3PhonesCont{
     width: 100%;
-    background: blue;
+    padding-top: 60px;
 }
 
 .s3PhonesItem{
     width: calc(100% / 3);
-    background: red;
     min-height: 100px;
     display: inline-block;
     float: left;

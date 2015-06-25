@@ -61,18 +61,14 @@ section{
 
 #Section1{
     height: auto;
-    min-height: 1000px;
+    min-height: 800px;
 }
 
 #section2{
-    background: url(../img/section1bg.jpg) center center no-repeat;
-    background-size: cover;
-    -o-background-size: cover;
-    -moz-background-size: cover;
-    -webkit-background-size:cover;
+    background: white;
 }
 
-#homeContent{
+.homeContent{
     width: 90%;
     max-width: 960px;
     padding-left: 5%;
@@ -103,8 +99,27 @@ section{
     margin-top: -60px;
 }
 
+#homeH2{
+    font-size: 30px;
+    text-align: center;
+    color: #252525;
+    font-weight: 300;
+    margin: 0px;
+    padding: 0px;
+    padding-top: 100px;
+    line-height: 30px;
+}
 
-
+#homeP{
+    font-size: 16px;
+    color: #92969c;
+    max-width: 600px;
+    text-align: center;
+    font-weight: 400;
+    margin: 0px auto;
+    margin-top: 10px;
+    padding: 0px 5% 0px 5%;
+}
 
 
 

@@ -5,6 +5,7 @@
 *{
     font-family: 'San Francisco Display', sans-serif;
     -webkit-font-smoothing: antialiased;
+    text-decoration: none;
 }
 
 html{

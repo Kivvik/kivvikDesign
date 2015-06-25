@@ -143,6 +143,7 @@ section{
 
 #section3{
     background: #55acee;
+    margin-top: -140px;
 }
 
 #s3H2{
@@ -166,6 +167,66 @@ section{
     margin: 0px auto;
 }
 
+#section4{
+    background: white;
+    padding-bottom: 60px;
+}
 
+#s4Img{
+    position: absolute;
+    
+}
+
+#s4H2{
+    color:#252525;
+}
+
+#s4P{
+    color: #252525;
+}
+
+#s4Img{
+    width: 1200px;
+    margin: auto;
+    position: absolute;
+    left: 50%;
+    margin-left: -600px;
+    margin-top: 60px;
+}
+
+@media (max-width: 1200px){
+    #s4Img{
+        width: 1000px;
+        margin-left: -500px;
+    }
+}
+
+@media (max-width: 1000px){
+    #s4Img{
+        width: 900px;
+        margin-left: -450px;
+    }
+}
+
+@media (max-width: 900px){
+    #s4Img{
+        width: 800px;
+        margin-left: -400px;
+    }
+}
+
+@media (max-width: 800px){
+    #s4Img{
+        width: 700px;
+        margin-left: -350px;
+    }
+}
+
+@media (max-width: 60px){
+    #s4Img{
+        width: 700px;
+        margin-left: -350px;
+    }
+}
 
 

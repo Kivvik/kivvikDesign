@@ -200,6 +200,7 @@ section{
 #section3{
     background: #55acee;
     margin-top: -140px;
+    padding-bottom: 80px;
 }
 
 @media (max-width: 414px){
@@ -427,6 +428,11 @@ section{
     background: #72c8fa;
     width: 84%;
     margin-left: 8%;
+    opacity: 0.8;
+}
+
+.selector:hover{
+    opacity: 1;
 }
 
 .selectorP{
@@ -444,6 +450,12 @@ section{
 }
 
 
+footer{
+    width: 100%;
+    height: 50px;
+    background: black;
+    margin-top: 240px;
+}
 
 
 

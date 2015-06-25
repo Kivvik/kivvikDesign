@@ -113,13 +113,15 @@ section{
 #homeP{
     font-size: 16px;
     color: #92969c;
-    max-width: 600px;
+    max-width: 590px;
     text-align: center;
     font-weight: 400;
     margin: 0px auto;
     margin-top: 10px;
     padding: 0px 5% 0px 5%;
+    line-height: 22px;
 }
+
 
 
 

@@ -66,7 +66,9 @@ section{
 }
 
 #section2{
-    background: white;
+    background: #252525;
+    height: auto;
+    padding-bottom: 100px;
 }
 
 .homeContent{
@@ -108,10 +110,10 @@ section{
     }
 }
 
-#homeH2{
+.homeH2{
     font-size: 30px;
     text-align: center;
-    color: #252525;
+    color: white;
     font-weight: 300;
     margin: 0px;
     padding: 0px;
@@ -119,9 +121,9 @@ section{
     line-height: 30px;
 }
 
-#homeP{
+.homeP{
     font-size: 16px;
-    color: #92969c;
+    color: white;
     max-width: 590px;
     text-align: center;
     font-weight: 400;
@@ -129,6 +131,7 @@ section{
     margin-top: 10px;
     padding: 0px 5% 0px 5%;
     line-height: 22px;
+    opacity: 0.8;
 }
 
 #img2{
@@ -138,12 +141,31 @@ section{
     padding-top: 40px;
 }
 
+#section3{
+    background: #55acee;
+}
 
+#s3H2{
+    
+}
 
+#s3PhonesCont{
+    width: 100%;
+    background: blue;
+}
 
+.s3PhonesItem{
+    width: calc(100% / 3);
+    background: red;
+    min-height: 100px;
+    display: inline-block;
+    float: left;
+}
 
-
-
+.s3PhonesItemImg{
+    width: 80%;
+    margin: 0px auto;
+}
 
 
 

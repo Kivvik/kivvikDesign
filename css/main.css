@@ -4,6 +4,7 @@
 
 *{
     font-family: 'San Francisco Display', sans-serif;
+    -webkit-font-smoothing: antialiased;
 }
 
 html{
@@ -51,7 +52,7 @@ section{
 .navItem{
     color: #92969c;
     text-transform: uppercase;
-    font-weight: 700;
+    font-weight: 500;
     display: inline-block;;
     padding: 10px 20px 10px 20px;
     float: right;

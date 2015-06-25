@@ -73,10 +73,12 @@ section{
 }
 
 #homeContent{
-    max-width: 960px;
     width: 90%;
+    max-width: 960px;
     padding-left: 5%;
     padding-right: 5%;
+    margin: 0px auto;
+    display: block;
 }
 
 #section1H1{

@@ -392,6 +392,7 @@ section{
     margin-left: 8%;
     background: #ebf1f5;
     height: auto;
+    border-radius: 5px;
 }
 
 .Price > h4{
@@ -428,7 +429,8 @@ section{
     background: #72c8fa;
     width: 84%;
     margin-left: 8%;
-    opacity: 0.8;
+    opacity: 0.85;
+    border-radius: 5px;
 }
 
 .selector:hover{
@@ -449,6 +451,23 @@ section{
     margin-top: -10px;
 }
 
+.selectorInPage{
+    margin: 0px auto;
+    width: 150px;
+    padding: 15px;
+    text-align: center;
+    text-decoration: none;
+    margin-top: 30px;
+    background: #72c8fa;
+    color: white;
+    font-weight: 700;
+    opacity: 0.85;
+    border-radius: 5px;
+}
+
+.selectorInPage:hover{
+    opacity: 1;
+}
 
 footer{
     width: 100%;

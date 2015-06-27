@@ -386,6 +386,7 @@ section{
     margin-bottom: 20px;
     display: inline-block;
     float: left;
+    vertical-align: top;
 }
 
 .Price{

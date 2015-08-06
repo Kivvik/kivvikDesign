@@ -145,9 +145,41 @@ footer{
     height: 200px;
 }
 
+.footerWrapper{
+    width: 98%;
+    margin: 0px auto;
+    padding-top: 60px;
+}
 
+.footerCol{
+    width: calc(100% / 5);
+    display: inline-block;
+    float: left;
+}
 
+#kivvikLogoFooter{
+    width: 30%;
+    margin: 0px auto;
+    position: relative;
+    display: block;
+    padding-top: 15px;
+}
 
+.footerlinksCont{
+    margin-left: 10%;
+}
+
+.footerlinksCont p{
+    text-decoration: none;
+    color: rgba(255,255,255,0.6);
+    font-size: 14px;
+    font-weight: 700;
+
+}
+
+.footerlinksCont p:hover{
+    color: rgba(255,255,255,1);
+}
 
 
 /**********************************************

@@ -819,7 +819,17 @@
     
 }
 
-
+/*Pricing*/
+#pricing{
+    width: 100%;
+    min-height: 400px;
+    position: relative;
+    background: #2e3840;
+    padding-top: 40px;
+    padding-bottom: 80px;
+    margin: 0px auto;
+    display: block;
+}
 
 
 

@@ -632,7 +632,7 @@
     padding: 4px 10px;
     border-radius: 3px;
     white-space: normal;
-    border: 1.5px rgba(0,0,0,0) solid;
+    border: 0.5px rgba(0,0,0,0) solid;
     color: #92969c;
     font-weight: 500;
     display: inline-block;
@@ -642,12 +642,12 @@
 
 .SelectTextCont:hover{
     color: #4777db;
-    border: 1.5px #92969c solid;
+    border: 0.5px #92969c solid;
 }
 
 .selectActive{
     color: #4777db;
-    border: 1.5px #92969c solid;
+    border: 0.5px #92969c solid;
 }
 
 .selectActiveIndicator{
@@ -822,7 +822,7 @@
 /*Pricing*/
 #pricing{
     width: 100%;
-    min-height: 400px;
+    min-height: 600px;
     position: relative;
     background: #2e3840;
     padding-top: 40px;
@@ -831,12 +831,100 @@
     display: block;
 }
 
+#pricingh2{
+    color: #4777db;
+}
 
+#pricingh3{
+    color: #fff;
+}
 
+#pricingsubHeading{
+    color: #92969c;
+    font-weight: 300;
+    font-size: 14px;
+    text-align: center;
+    padding-top: 10px;
+    max-width: 500px;
+    margin: 0px auto;
+}
 
+#pricingSelectContainer{
+    width: 95%;
+    margin: 0px auto;
+    padding: 40px 2.5%;
+    max-width: 1000px;
+}
 
+.pricingContbig{
+    width: calc(100% / 4);
+    height: auto;
+    min-height: 100px;
+    float: left;
+    display: inline-block;
+}
 
+.priceContSmall{
+    width: 95%;
+    margin: 0px auto;
+    border-radius: 5px;
+    background: #3c4a56;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
 
+.priceContSmall h5{
+    text-align: center;
+    font-size: 16px;
+    color: #fff;
+    text-transform: uppercase;
+    height: 28px;
+}
+
+.priceCont{
+    height: 80px;
+}
+
+.priceMainNumber{
+    text-align: center;
+    font-weight: 300;
+    color: #fff;
+    font-size: 60px;
+    padding-top: 30px;
+}
+
+.dollarsign{
+    font-size: 30px;
+}
+
+.cents{
+    font-size: 30px;
+}
+
+.priceDisclosure{
+    height: 40px;
+    padding-bottom: 20px;
+}
+
+.priceDisclosure p{
+    text-align: center;
+    font-size: 12px;
+    line-height: 16px;
+    padding-top: 20px;
+    color: #92969c;
+}
+
+.enterpriseContact{
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    padding-top: 37px;
+    font-weight: 300;
+}
+
+.pricingImportant{
+    color: #4777db !important;
+}
 
 
 

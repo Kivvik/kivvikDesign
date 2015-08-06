@@ -494,14 +494,38 @@
     left: 55%;
 }
 
+#advisorDashImg2{
+    position: absolute;
+    height: 500px;
+    left: 55%;
+    z-index: 1;
+}
+
 .advisorImgWrapper{
     -webkit-overflow: hidden;
 }
 
 @media(max-width: 768px){
     #advisorDashImg{
-        height: 600px;
-        left:55%;
+        height: 500px;
+        left:65%;
+        margin-top: 100px;
+    }
+    #advisorDashImg2{
+        height: 450px;
+        margin-top: 170px;
+    }
+}
+
+@media(min-width: 769px){
+    #advisorDashImg{
+        height: 500px;
+        left:65%;
+        margin-top: 0px;
+    }
+    #advisorDashImg2{
+        height: 450px;
+        margin-top: 70px;
     }
 }
 
@@ -696,24 +720,104 @@
 }
 
 
+/*Spotlight Section */
 
+#spotlightSection{
+    width: 100%;
+    min-height: 400px;
+    position: relative;
+    background: #fff;
+    padding-top: 40px;
+    padding-bottom: 80px;
+    margin: 0px auto;
+    display: block;
+}
 
+#quotes{
+    width: 40px;
+    margin: 0px auto;
+    display: block;
+}
 
+#spotlightContainer{
+    width: 90%;
+    margin: 0px auto;
+    padding: 0px 5%;
+    display: block;
+    max-width: 1000px;
+    padding-top: 60px;
+    
+}
 
+.spotlightCont{
+    display: inline-block;
+    float: left;
+    width: calc(100% / 3);
+    min-height: 100px;
+}
 
+.spotlightContentContainer{
+    width: 86%;
+    margin: 0px auto;
+    display: block;
+    padding: 4%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-radius: 5px;
+    border: 1px solid #c1c8d0;
+}
 
+.spotlightHeaderImgCont{
+    width: 100%;
+    height: 40px;
+    padding-bottom: 20px;
+}
 
+.spotlightHeaderImg{
+    height: 40px;
+    margin: 0px auto;
+    position: relative;
+    display: block;
+}
 
+.quoteCont{
+    width: 90%;
+    display: block;
+    margin: 0px auto;
+    padding-bottom: 30px;
+    height: 80px;
+}
 
+.quoteCont p{
+    font-size: 16px;
+    color: #92969c;
+    text-align: center;
+    line-height: 22px;
+}
 
+.quoterCont{
+    width: 100%;
+}
 
+.quoteAuthor{
+    font-size: 12px;
+    font-weight: 700;
+    color: #4777db;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    line-height: 12px;
+    padding-bottom: 4px;
+}
 
-
-
-
-
-
-
+.quoteTitle{
+    color: #92969c;
+    font-size: 12px;
+    text-align: center;
+    padding: 0px;
+    line-height: 12px;
+    
+}
 
 
 

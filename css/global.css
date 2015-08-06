@@ -13,7 +13,7 @@ body{
     min-width: 100%;
     max-width: 100%;
     overflow-x: hidden;
-    text-rendering: optimizeLegibility;
+    text-rendering: optimizeLegibility !important;
     -webkit-font-smoothing: antialiased;
     font-soothing: antialiased;
 }

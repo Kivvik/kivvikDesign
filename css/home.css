@@ -67,7 +67,7 @@
 }
 
 #signUpBtnHomeTop:hover{
-    background: #9c88ff;
+    background: #4d81ef;
 }
 
 #noComitSignUp{
@@ -614,7 +614,7 @@
     display: inline-block;
     float: left;
     margin-right: 20px;
-    margin-top: 10px;
+    margin-top: 6px;
 }
 
 .selectorIndicator{
@@ -632,7 +632,6 @@
     padding: 4px 10px;
     border-radius: 3px;
     white-space: normal;
-    border: 0.5px rgba(0,0,0,0) solid;
     color: #92969c;
     font-weight: 500;
     display: inline-block;
@@ -642,12 +641,10 @@
 
 .SelectTextCont:hover{
     color: #4777db;
-    border: 0.5px #92969c solid;
 }
 
 .selectActive{
     color: #4777db;
-    border: 0.5px #92969c solid;
 }
 
 .selectActiveIndicator{
@@ -925,6 +922,177 @@
 .pricingImportant{
     color: #4777db !important;
 }
+
+#pricingh32{
+    color: #fff;
+    padding-top: 240px;
+}
+
+
+#demobtn{
+    color: white;
+    width: 220px;
+    height: 28px;
+    position: relative;
+    display: block;
+    margin:0 auto;
+    padding: 16px;
+    border-radius: 5px;
+    background: #3c4a56;
+    margin-top:20px;
+    text-decoration: none;
+    color: white;
+    font-size: 13px;
+    font-weight: 900;
+    text-transform: uppercase;
+    text-align: center;
+    animation-delay: 2s;
+    animation-duration: 2s;
+}
+
+#demobtn:hover{
+    background: #29333c;
+}
+
+#homeTourBtn{
+    height: 400px;
+    width: 100%;
+    position: relative;
+    display: block;
+}
+
+#walkthroughbtnSection, #videotourbtnSection{
+    width: 50%;
+    height: 100%;
+    float: left;
+    display: inline-block;
+    
+    background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size:cover;
+}
+
+#walkthroughbtnSection{
+background: 
+        linear-gradient(
+            rgba(37, 37, 37, 0.9), 
+            rgba(37, 37, 37, 0.9)
+        ),
+        url(/img/home/walkthroughImg.jpg) center center no-repeat;
+}
+
+#videotourbtnSection{
+background: 
+        linear-gradient(
+            rgba(19, 53, 90, 0.9), 
+            rgba(19, 53, 90, 0.9)
+        ),
+        url(/img/home/videoTourImg.jpg) center center no-repeat;
+}
+
+#videotourbtnSection:hover{
+    background: 
+        linear-gradient(
+            rgba(19, 53, 90, 0.95), 
+            rgba(19, 53, 90, 0.95)
+        ),
+        url(/img/home/videoTourImg.jpg) center center no-repeat;
+}
+
+#walkthroughbtnSection:hover{
+    background: 
+        linear-gradient(
+            rgba(37, 37, 37, 0.95), 
+            rgba(37, 37, 37, 0.95)
+        )
+        ,url(/img/home/walkthroughImg.jpg) center center no-repeat;
+}
+
+.tourH3{
+    color: #72c8fa;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 900;
+    padding-top: 100px;
+    text-transform: uppercase;
+    max-width: 450px;
+    margin: 0px auto;
+}
+
+.tourH4{
+    color: white;
+    position: relative;
+    text-align: center;
+    font-size: 30px;
+    font-weight:900;
+    padding-top: 36px;
+    text-transform: uppercase;
+    line-height: 40px;
+    max-width: 350px;
+    margin: 0px auto;
+    height: 80px;
+}
+
+.tourP{
+    text-align: center;
+    color: white;
+    font-weight: 700;
+    font-size: 14px;
+    padding-top: 0px;
+    text-transform: uppercase;
+    padding: 0px 5%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

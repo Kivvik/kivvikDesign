@@ -4,7 +4,7 @@
     ___  ___ _ __ ___ | | | |__) |_____   _____  __ _| |  _ ___
    / __|/ __| '__/ _ \| | |  _  // _ \ \ / / _ \/ _` | | | / __|
    \__ \ (__| | | (_) | | | | \ \  __/\ V /  __/ (_| | |_| \__ \
-   |___/\___|_|  \___/|_|_|_|  \_\___| \_/ \___|\__,_|_(_) |___/ v2.3.0
+   |___/\___|_|  \___/|_|_|_|  \_\___| \_/ \___|\__,_|_(_) |___/ v2.3.2
                                                         _/ |
                                                        |__/
 
@@ -25,6 +25,10 @@ window.scrollReveal = (function( window ){
   var self;
 
   function scrollReveal( config ){
+
+    if ( !( this instanceof scrollReveal ) ) {
+      return new scrollReveal( config );
+    }
 
     self         = this;
     self.elems   = {};

@@ -26,3 +26,32 @@ $( document ).ready(function() {
  $('#signUpBtnHome').click(scrollToSignup);
 
 });
+
+
+
+function overlay() {
+	el = document.getElementById("overlay");
+	el.style.visibility = (el.style.visibility == "visible") ? "hidden" : "visible";
+}
+
+
+//Features Scroll to Fixed Header
+var element = document.getElementById('#pageLinks')
+window.addEventListener('scroll', function() {
+     element.getBoundingClientRect().top < 0 ? 
+     element.classList.add('stuck') : 
+     element.classList.remove('stuck');
+});
+
+
+
+
+
+
+
+
+
+
+
+
+

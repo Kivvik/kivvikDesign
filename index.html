@@ -1,194 +1,379 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-    <meta charset="utf-8" />
-	<title>Kivvik Design</title>
-	<meta name="description" content="Welcome to the most affordable deisng studio.">
-    <meta name='copyright' content='Kivvik Design'>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link type="image/x-icon" href="https://s3.amazonaws.com/Web_Application_Assets/Global+Assets/kivvik_logo.png" rel="SHORTCUT ICON">
-    <link href='https://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
-    <link href="css/main.css" rel="stylesheet" type="text/css">
+	<meta charset="utf-8" />
+	<title>Kivvik Outreach</title>
+	<meta name="description" content="Welcome to Kivvik Wealth, Your Personal Client Outreach Assistant. From a new home to a new member of their family, let Kivvik keep you informed.">
+    <meta name='copyright' content='Kivvik Incorporated'>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link type="image/x-icon" href="https://s3.amazonaws.com/Web_Application_Assets/Global+Assets/kivvik_logo.png" rel="SHORTCUT ICON">
+    <meta property="og:image" content="https://s3.amazonaws.com/Web_Application_Assets/Global+Assets/kivvikSocialMediaImage.png" />
+    <link rel="image_src" href="https://s3.amazonaws.com/Web_Application_Assets/Global+Assets/kivvik_logo_full.png"/>
+
+	<link href="css/global.css" rel="stylesheet" type="text/css">
+    <link href="css/home.css" rel="stylesheet" type="text/css">
     <link href="css/customAnimations.css" rel="stylesheet" type="text/css">
-    
-    <script src="dist/js/smooth-scroll.js"></script>
+    <link type="text/css" rel="stylesheet" href="css/animate.css" />
+
+    <script type="text/javascript" src="js/jquery.sky.carousel-1.0.2.min.js"></script>
+    <script type="text/javascript" src="js/jquery-scrolltofixed.js"></script>
+    <script type="text/javascript" src="js/app.js"></script>
+    <script type="text/javascript" src="js/customAnchorScroll.js"></script>
+    <script type="text/javascript" src="js/kivvikscroller.js"></script>
+    <script type="text/javascript" src="js/carousel.js"></script>
+    <script src='js/scripts.js' type='text/javascript'></script>
+    <script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-48658047-1', 'auto');
+      ga('send', 'pageview');
+
+      /*$(function() {
+        $('#client_tiles').carousel({
+            itemWidth: 220,
+            itemHeight: 370,
+            startIndex: 0,
+            distance: 50,
+            preload: false,
+            selectByClick: true,
+            gradientOverlayVisible: false,
+            enableMouseWheel: false,
+            unselectedItemAlpha: 0.4
+        });
+      });*/
+
+    </script>
+    <script src="//use.typekit.net/tdt8axn.js"></script>
+<script>try{Typekit.load({ async: true });}catch(e){}</script>
 </head>
     
-    <body>
-        <section id="Section1">
-            <div id="navBar">
-                <img class="homeLogo" src="https://s3.amazonaws.com/Web_Application_Assets/Global+Assets/kivvik_logo.png" />
-                <div id="navitemsCont">
-                    <a data-scroll href="#pricingSection"><p class="navItem">Pricing</p></a>
-                    <a data-scroll href="#section4"><p class="navItem">Branding</p></a>
-                    <a data-scroll href="#section3"><p class="navItem">Mobile</p></a>
-                    <a data-scroll href="#section2"><p class="navItem">Web</p></a>
+<body id="home">
+    <header class="header animated fadeInDown">
+		<div class="homelogo">
+			<a href="/index.html"><img id="homelogo" src="/img/global/kivvikLogoWhite.png"></a>
+		</div>
+		<div class="headerlinkscont">
+			<a href="https://wealthapp.kivvik.com/#!/auth/login"><p class="headerlinks" id="nav_link_p_r_login">Log In</p></a>
+            <a href="about.html"><p class="headerlinks" id="nav_link_p_r">About Us</p></a>
+            <a href="/walkthrough.html#pricing"><p class="headerlinks" id="nav_link_p_r">Pricing</p></a>
+            <a href="../compliance.html"><p class="headerlinks" id="nav_link_p_r">Compliance</p></a>
+            <a href="../guidedtour.html"><p class="headerlinks" id="navResponsive">Video Tours</p></a>
+		</div>
+    </header>
+    
+    <section id="homeHeroSection">
+        <img id="homeImg1400" src="/img/home/homeHero.png"/>
+        <img id="homeImgUltraWide" src="/img/home/homeHeroUltraWide.png"/>
+        <h1 id="homeH1" class="animated fadeIn">Stay up-to-date with your clients' life events.</h1>
+        <h2 id="homeH2" class="animated fadeIn">Eliminate blind emails, calls and manual outreach forms. Automated outreach works in the background, sending life updates right to your inbox.</h2>
+        <a href="https://wealthapp.kivvik.com/#!/auth/register">
+                    <div id="signUpBtnHomeTop" class="homeSignUpBtn animated fadeIn">Try it for free</div>
+                </a>
+                <p id="noComitSignUp" class="animated fadeIn">No credit card required.</p>
+
+        <div id="homeStats">
+            <div class="homeStatCont">
+                <div id="homeStats1" class="homeStatWrapper">
+                    <img class="statImg" src="/img/home/stat1.png"/>
                 </div>
             </div>
-            <div class="homeContent" data-sr="reset, enter top">
-            <h1 id="section1H1">Stunning Designs.<br><span id="section1H1Sub">Without Breaking The Bank.</span></h1>
-            <img id="homeImg" src="https://s3.amazonaws.com/kivvikdesign/landingPageAssets/imgs/homeImg.png" />
+            <div class="homeStatCont">
+                <div id="homeStats2" class="homeStatWrapper">
+                    <img class="statImg" src="/img/home/stat2.png"/>
+                </div>
             </div>
-            
-        </section>
-        
-        <section id="section2">
-            <div class="homeContent">
-                <h2 id="s2H2" class="homeH2">Web Design</h2>
-                <p id="s2P" class="homeP">World class web design. We want good design to be widely available for all. Design not only differentiates us, but helps tell a very important story about who we can and what our passions are. With our Web and UI package we ensure quick turnaround, while going through every major step of the process with you.</p>
-                
-                <a data-scroll href="#pricingSection"><p class="selectorInPage">View Our Pricing</p></a>
-                
-                <img id="img2" src="https://s3.amazonaws.com/kivvikdesign/landingPageAssets/imgs/BrowserWindow.png" />
+            <div class="homeStatCont">
+                <div id="homeStats3" class="homeStatWrapper">
+                    <img class="statImg" src="/img/home/stat3.png"/>
+                </div>
             </div>
-        </section>
+        </div>
+    </section>
+
+    <section id="homeSection2">
+        <h2 id="homeSec2H2">Invite, sit back, and relax.</h2>
+        <p id="homeSecP">Invite your clients. Choose the frequency of tyour outreach. Kivvik then 
+sends updates to your inbox as they come in. We analyzed years of 
+client-advisor communication to structure the most effective outreach.</p>
         
-        <section id="section3" class=".fadeInUp">
-            <div class="homeContent">
-                <h2 id="s3H2" class="homeH2">Mobile Design</h2>
-                <p id="s3P" class="homeP">Mobile is key. The mobile web, for the first time, has overtaken browsing on a desktop. We work with you to ensure your website, caters to the mobile web as well as designing for mobile applications for iOS, Android and Windows Phone.</p>
-                
-                <a data-scroll href="#pricingSection"><p class="selectorInPage">View Our Pricing</p></a>
-                
-                <div id="s3PhonesCont">
-                    <div class="s3PhonesItem">
-                        <img class="s3PhonesItemImg" src="https://s3.amazonaws.com/kivvikdesign/landingPageAssets/imgs/phone_1.png"/>
+        <img id="homeDashImg" src="/img/home/dashboard.png"/>
+    
+    </section>
+    
+    <section id="blueDividerOne" class="blueDividerSection">
+        <h2>A Seamless experience for your clients</h2>
+        <p>We automate client outreach and CRM data entry to allow you to focus on advising your clients and furthering your business. Thoughtfully designed to keep up with your quality of service.</p>
+    </section>
+    
+    <section id="clientExpHome">
+        <img id="clientExpIco" src="/img/home/clientExpIco.png"/>
+        <h2 class="sectionH2" id="clientExpH2">The Client Experience</h2>
+        <h3 class="sectionH3" id="clientExpH3">What your clients see.</h3>
+        <div id="dataClientExp">
+            <div id="phoneDesk">
+                <div id="clientExpText1" class="clientExpText">
+                    <h4>Simple Structure</h4>
+                    <p>Kivvik analyzed years of client-advisor communication to develop a survey structure that encompasses the major life events advisors should be made aware of.</p>
+                </div>
+                <div id="clientExpText2" class="clientExpText">
+                    <h4>Ease of Submisson</h4>
+                    <p>We designed a mobile-friendly interface for on-the-go submissions. By asking the right and most relevant questions, we ensure clients are disclosing complete details on their life event.</p>
+                </div>
+                <div id="clientExpText3" class="clientExpText">
+                    <h4>60x Response Rate</h4>
+                    <p>We have realized a 60X client response when clients are carefully guided through how to alert their advisors on life events.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section id="blueDividertwo" class="blueDividerSection">
+        <h2>A hands-off, turn-key solution for you</h2>
+        <p>We automate client outreach and CRM data entry to allow you to focus on advising your clients and furthering your business. Thoughtfully designed to keep up with your quality of service.</p>
+    </section>
+    
+    <section id="advisorSection">
+        <img id="advisorExpIco" src="/img/home/advisorSecIco.png"/>
+        <h2 class="sectionH2" id="advisorExpH2">Proactive Client Updates</h2>
+        <h3 class="sectionH3" id="advisorExpH3">What you recieve.</h3>
+        <div id="advisorHomeCont">
+            <div class="advisorImgWrapper">
+                <img id="advisorDashImg" src="/img/home/AdvisorDashboard.png"/>
+            </div>
+            <div id="advisorHomeTextSection">
+                <div class="advisorTextCont">
+                    <div class="advisorIcon">
+                        <img id="advisorTextIcon" src="/img/home/emailAlerts.png"/>
                     </div>
-                    <div class="s3PhonesItem">
-                        <img class="s3PhonesItemImg" src="https://s3.amazonaws.com/kivvikdesign/landingPageAssets/imgs/phone_2.png"/>
-                    </div>
-                    <div class="s3PhonesItem">
-                        <img class="s3PhonesItemImg" src="https://s3.amazonaws.com/kivvikdesign/landingPageAssets/imgs/phone_3.png"/>
+                    <div class="advisorText">
+                        <h4>Email Alerts</h4>
+                        <p>Once a client submits you receive is an email notification with all the details. Within the email you can reply, call the client, or just analyze the information later on our dashboard.</p>
                     </div>
                 </div>
                 
+                <div class="advisorTextCont">
+                    <div class="advisorIcon">
+                        <img id="advisorTextIcon" src="/img/home/eventUpdate.png"/>
+                    </div>
+                    <div class="advisorText">
+                        <h4>Event Update Organization</h4>
+                        <p>By logging into the Kivvik Dashboard you will have full access to every update your clients' have submitted. Updates are organized and filterable by type and on a chornological timeline.</p>
+                    </div>
+                </div>
+                
+                <div class="advisorTextCont">
+                    <div class="advisorIcon">
+                        <img id="advisorTextIcon" src="/img/home/CRMIntegrations.png"/>
+                    </div>
+                    <div class="advisorText">
+                        <h4>CRM Integrations</h4>
+                        <p>Starting with RedTail in mid-July, Kivvik will be able to automatically sync clients, create activities, notes and reminders to ensure you have all the information you need to keep track of your clients.</p>
+                    </div>
+                </div>
             </div>
-        </section>
+        </div>
         
-        <section id="section4">
-             <div class="homeContent">
-                <h2 id="s4H2" class="homeH2">Branding & Presentions</h2>
-                <p id="s4P" class="homeP">We understand that your companies brand is only as successful as its implementation. Kivvik Design takes a holistic approach to brand application, channeling the design process to the web experience. At Kivvik Design, we prioritize the human experience.</p>
-                 <a data-scroll href="#pricingSection"><p class="selectorInPage">View Our Pricing</p></a>
+        <div id="integrationsSection">
+            <img id="integrationsGroupImg" src="/img/home/integrationsgroup.png"/>
+        </div>
+    
+    </section>
+    
+    <section id="OurUpdates">
+        <img id="updatesIcon" class="homeLittleIcon" src="/img/home/ourUpdatesIco.png"/>
+        <h2 class="sectionH2" id="advisorExpH2">We cover it all</h2>
+        <h3 class="sectionH3" id="advisorExpH3">Our updates at a glance.</h3>
+        
+        <div id="ourUpdatesContent">
+            <div id="leftSectorsDiv">
+                <div class="selectorCont">
+                    <div class="selectorIndicatorCont">
+                        <img class="selectorIndicator selectActiveIndicator" src="img/home/indicatorBlue.svg"/>
+                    </div>
+                    <div class="selectorText">
+                        <p class="SelectTextCont selectActive">Expecting a Child</p>
+                    </div>
+                </div>
+                
+                <div class="selectorCont">
+                    <div class="selectorIndicatorCont">
+                        <img class="selectorIndicator" src="img/home/indicatorBlue.svg"/>
+                    </div>
+                    <div class="selectorText">
+                        <p class="SelectTextCont ">Vehicle (Buy/Sell)</p>
+                    </div>
+                </div>
+                
+                <div class="selectorCont">
+                    <div class="selectorIndicatorCont">
+                        <img class="selectorIndicator" src="img/home/indicatorBlue.svg"/>
+                    </div>
+                    <div class="selectorText">
+                        <p class="SelectTextCont ">Travel Plans</p>
+                    </div>
+                </div>
+                
+                <div class="selectorCont">
+                    <div class="selectorIndicatorCont">
+                        <img class="selectorIndicator" src="img/home/indicatorBlue.svg"/>
+                    </div>
+                    <div class="selectorText">
+                        <p class="SelectTextCont ">Marriage / Engagement</p>
+                    </div>
+                </div>
+                
+                <div class="selectorCont">
+                    <div class="selectorIndicatorCont">
+                        <img class="selectorIndicator" src="img/home/indicatorBlue.svg"/>
+                    </div>
+                    <div class="selectorText">
+                        <p class="SelectTextCont ">Real Estate</p>
+                    </div>
+                </div>
+                
+                <div class="selectorCont">
+                    <div class="selectorIndicatorCont">
+                        <img class="selectorIndicator" src="img/home/indicatorBlue.svg"/>
+                    </div>
+                    <div class="selectorText">
+                        <p class="SelectTextCont ">Renovations</p>
+                    </div>
+                </div>
+                
+                <div class="selectorCont">
+                    <div class="selectorIndicatorCont">
+                        <img class="selectorIndicator" src="img/home/indicatorBlue.svg"/>
+                    </div>
+                    <div class="selectorText">
+                        <p class="SelectTextCont ">Retirement Changes</p>
+                    </div>
+                </div>
+                
+                <div class="selectorCont">
+                    <div class="selectorIndicatorCont">
+                        <img class="selectorIndicator" src="img/home/indicatorBlue.svg"/>
+                    </div>
+                    <div class="selectorText">
+                        <p class="SelectTextCont ">Employment Changes</p>
+                    </div>
+                </div>
+                
+                <div class="selectorCont">
+                    <div class="selectorIndicatorCont">
+                        <img class="selectorIndicator" src="img/home/indicatorBlue.svg"/>
+                    </div>
+                    <div class="selectorText">
+                        <p class="SelectTextCont ">Health Issues</p>
+                    </div>
+                </div>
+                
+                <div class="selectorCont">
+                    <div class="selectorIndicatorCont">
+                        <img class="selectorIndicator" src="img/home/indicatorBlue.svg"/>
+                    </div>
+                    <div class="selectorText">
+                        <p class="SelectTextCont ">Inheritance</p>
+                    </div>
+                </div>
+                
+                <div class="selectorCont">
+                    <div class="selectorIndicatorCont">
+                        <img class="selectorIndicator" src="img/home/indicatorBlue.svg"/>
+                    </div>
+                    <div class="selectorText">
+                        <p class="SelectTextCont ">Divorce / Separation</p>
+                    </div>
+                </div>
+                
+                <div class="selectorCont">
+                    <div class="selectorIndicatorCont">
+                        <img class="selectorIndicator" src="img/home/indicatorBlue.svg"/>
+                    </div>
+                    <div class="selectorText">
+                        <p class="SelectTextCont ">Other Topics</p>
+                    </div>
+                </div>
                  
             </div>
-            <img id="s4Img" src="https://s3.amazonaws.com/kivvikdesign/landingPageAssets/imgs/BrandingImg.png"/>
-        </section>
-        
-        <!--<section id="section5">
-            <div class="homeContent">
-                <h2 id="s5H2" class="homeH2">Join our happy family of users!</h2>
-            </div>
-            <div id="usersCont">
-                <div class="logosCont">
-                    <img class="logoImg" src="https://s3.amazonaws.com/kivvikdesign/landingPageAssets/imgs/AOL.png"/>
-                </div>
-                <div class="logosCont">
-                    <img class="logoImg" src="https://s3.amazonaws.com/kivvikdesign/landingPageAssets/imgs/McCormick.png"/>
-                </div>
-                <div class="logosCont">
-                    <img class="logoImg" src="https://s3.amazonaws.com/kivvikdesign/landingPageAssets/imgs/MorganStanley.png"/>
-                </div>
-                <div class="logosCont">
-                    <img class="logoImg" src="https://s3.amazonaws.com/kivvikdesign/landingPageAssets/imgs/Aflac.png"/>
-                </div>
-                <div class="logosCont">
-                    <img class="logoImg" src="https://s3.amazonaws.com/kivvikdesign/landingPageAssets/imgs/Contactually.png"/>
-                </div>
-                <div class="logosCont">
-                    <img class="logoImg" src="https://s3.amazonaws.com/kivvikdesign/landingPageAssets/imgs/Gables.png"/>
-                </div>
-                <div class="logosCont">
-                    <img class="logoImg" src="https://s3.amazonaws.com/kivvikdesign/landingPageAssets/imgs/Moviephone.png"/>
-                </div>
-                <div class="logosCont">
-                    <img class="logoImg" src="https://s3.amazonaws.com/kivvikdesign/landingPageAssets/imgs/VITAL.png"/>
-                </div>
-                <div class="logosCont">
-                    <img class="logoImg" src="https://s3.amazonaws.com/kivvikdesign/landingPageAssets/imgs/CharlesSchwab.png"/>
-                </div>
-                <div class="logosCont">
-                    <img class="logoImg" src="https://s3.amazonaws.com/kivvikdesign/landingPageAssets/imgs/Switched.png"/>
-                </div>
-            </div>
-        </section>-->
-        
-        <section id="pricingSection">
-            <div class="homeContent">
-                <h2 id="s5H2" class="homeH2">Flexible Pricing</h2>
-                <p id="s4P" class="homeP">Our pricing is structured in a way that allows you to know exactly what you’ll be getting for every dollar you spend. </p>
-            </div>
             
-            <div id="pricingDollars">
-                <div class="priceCont">
-                    <div class="Price">
-                        <h4>Web Design</h4>
-                        <h5>Flat Rate</h5>
-                        <p>$500 - $3000</p>
+            <div id="ContentAreaUpdates">
+                <div id="ContentAreaUpdatesContainer">
+                    <div id="changingPhoneDiv">
+                        <img id="changingPhone" src="/img/home/updatePhone.png"/>
+                    </div>
+                    <div id="changingTextIconDiv">
+                        <div class="changingIconDiv">
+                            <img class="changingIcon" src="/img/home/expectionaChild.png"/>
+                        </div>
+                        <div class="changingText">
+                            <h4 class="changingTextH4">
+                                Expecting a Child
+                            </h4>
+                            <p class="changingTextP">
+                                Know when clients are expanding the family to help them plan for the exciting future. From College savings plans to changes in insurance.
+                            </p>
+                        </div>
+                    
                     </div>
                 </div>
-                <div class="priceCont">
-                    <div class="Price">
-                        <h4>Mobile Design</h4>
-                        <h5>Flat Rate</h5>
-                        <p>$400 - $2000</p>
-                    </div>
-                </div>
-                <div class="priceCont">
-                    <div class="Price">
-                        <h4>branding</h4>
-                        <h5>Flat Rate</h5>
-                        <p>$200 - $2000</p>
-                    </div>
-                </div>
-                <div class="priceCont">
-                    <div class="Price">
-                        <h4>Web Design</h4>
-                        <h5>Hourly</h5>
-                        <p>$35/hr - $60/hr</p>
-                    </div>
-                </div>
-                <div class="priceCont">
-                    <div class="Price">
-                        <h4>Mobile Design</h4>
-                        <h5>Hourly</h5>
-                        <p>$20/hr - $60/hr</p>
-                    </div>
-                </div>
-                <div class="priceCont">
-                    <div class="Price">
-                        <h4>branding</h4>
-                        <h5>hourly</h5>
-                        <p>$20/hr - $50/hr</p>
-                    </div>
-                </div>
-                
-                <div id="selCont" class="priceCont">
-                    <div class="selector">
-                        <a href="mailto:hello@kivvik.com?subject=Would love to work with you on a web design project!"><p class="selectorP">Contact Us</p></a>
-                    </div>
-                </div>    
-                <div id="selCont" class="priceCont">
-                    <div class="selector">
-                        <a href="mailto:hello@kivvik.com?subject=Would love to work with you on a mobile design project!"><p class="selectorP">Contact Us</p></a>
-                    </div>
-                </div>  
-                <div id="selCont" class="priceCont">
-                    <div class="selector">
-                        <a href="mailto:hello@kivvik.com?subject=Would love to work with you on a branding project!"><p class="selectorP">Contact Us</p></a>
-                    </div>
-                </div>  
-                   
             </div>
-        </section>
-        
-        <footer>
-            
-        </footer>
+        </div>
     
-    <script>
-    smoothScroll.init();
-</script>
+    </section>
+    
+    <section id="pricing">
         
-    </body>
+    </section>
+    
+    
+    <footer>
+    
+    </footer>
+    
+<script src='/js/scrollReveal.min.js'></script>
+<script>
 
+      window.sr = new scrollReveal();
+
+</script>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+</body>
 </html>

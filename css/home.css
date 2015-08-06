@@ -1,0 +1,734 @@
+#home{
+    background-color: #2e3840;
+    overflow-x: hidden;
+}
+
+#homeHeroSection{
+   width: 100%;
+    height: auto;
+    min-height: 80vh; !important;
+    position: relative;
+    display: block;
+    height: 200px;
+    top: -60px;
+}
+
+@media(max-width: 1400px){
+    #homeImg1400{
+        width: 100%;
+        position: absolute;
+        top:0;
+        left: 0;
+        display: block;
+        z-index: -1;
+    }
+    #homeImgUltraWide{
+        display: none;
+    }
+}
+
+@media(min-width: 1400px){
+    #homeImg1400{
+        display: none;
+    }
+    
+    #homeImgUltraWide{
+        width: 100%;
+        position: absolute;
+        top:0;
+        left: 0;
+        display: block;
+        z-index: -1;
+    }
+}
+
+
+
+
+#signUpBtnHomeTop{
+    color: white;
+    width: 220px;
+    height: 28px;
+    position: relative;
+    display: block;
+    margin:0 auto;
+    padding: 16px;
+    border-radius: 5px;
+    background: #4777db;
+    margin-top:60px;
+    text-decoration: none;
+    color: white;
+    font-size: 13px;
+    font-weight: 900;
+    text-transform: uppercase;
+    text-align: center;
+    animation-delay: 2s;
+    animation-duration: 2s;
+}
+
+#signUpBtnHomeTop:hover{
+    background: #9c88ff;
+}
+
+#noComitSignUp{
+    font-size: 14px;
+    font-weight: 400;
+    color: #92969c;
+    padding-top: 5px;
+    text-align: center;
+    animation-delay: 2s;
+    animation-duration: 2s;
+}
+
+#homeH1{
+    font-weight: 300;
+    text-align: center;
+    color: white;
+    font-size: 3em;
+    max-width: 600px;
+    margin: 0px auto;
+    line-height: 1em;
+    padding-top: 25%;
+    padding: 25vh 5% 0px 5%;
+    animation-delay: 0.5s;
+    animation-duration: 3s;
+}
+#homeH2{
+    max-width: 600px;
+    margin: 0px auto;
+    text-align: center;
+    color: rgba(255,255,255,0.7);
+    font-size: 1.2em;
+    font-weight: 400;
+    padding-top: 20px;
+    animation-delay: 1.5s;
+    animation-duration: 2s;
+}
+
+#homeStats{
+    max-width: 1000px;
+    margin: 0px auto;
+    position: relative;
+    top: 30%;
+    bottom: 0px;
+    height: 60px;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+
+.homeStatCont{
+    position: relative;
+    float: left;
+    height: 100%;
+    width: calc(100% / 3);
+}
+
+.homeStatWrapper{
+    width: 210px;
+    margin: 0px auto;
+    position: relative;
+    float: clear;
+}
+
+.statImg{
+    max-width: 220px;
+    width: 80%;
+    margin: 0px auto;
+    position: relative;
+    display: block;
+}
+
+/*Home Section 2*/
+#homeSection2{
+    width: 100%;
+    min-height: 400px;
+    height: auto;
+    margin-top: -60px;
+}
+
+#homeSec2H2{
+        color: #fff;
+        font-weight: 300;
+        text-align: center;
+        font-size: 25px;
+}
+
+@media(max-width: 414px){
+    #homeSec2H2{
+        margin-top: 100px;
+    }
+}
+
+@media(max-width: 768px){
+    #homeSec2H2{
+        margin-top: 230px;
+    }
+}
+
+@media(max-width: 1000px){
+    #homeSec2H2{
+        margin-top: 210px;
+    }
+}
+   
+@media(max-width: 1200px){
+    #homeSec2H2{
+        margin-top: 200px;
+    }
+}
+
+@media(max-width: 1600px){
+    #homeSec2H2{
+        margin-top: 180px;
+    }
+}
+
+@media(max-width: 2000px){
+    #homeSec2H2{
+        margin-top: 200px;
+    }
+}
+
+@media(min-width: 2000px){
+    #homeSec2H2{
+        margin-top: 180px;
+    }
+}
+
+#homeSecP{
+    max-width: 600px;
+    margin: 0px auto;
+    text-align: center;
+    color: rgba(255,255,255,0.7);
+    font-size: 1em;
+    font-weight: 400;
+    padding: 20px;
+}
+
+#homeDashImg{
+    max-width: 1000px;
+    width: 80%;
+    display: block;
+    padding-top: 50px;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin: auto;
+}
+
+/*Blue Divider One*/
+.blueDividerSection{
+    width: 100%;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: #295786;
+}
+
+.blueDividerSection h2{
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+
+.blueDividerSection p{
+    text-align: center;
+    max-width: 800px;
+    padding: 0px 5%;
+    margin: 0px auto;
+    display: block;
+    color: #fff;
+    padding-top: 10px;
+    font-weight: 300;
+}
+
+
+/*Client Experience*/
+
+#clientExpHome{
+    width: 100%;
+    min-height: 400px;
+    height: auto;
+    position: relative;
+    background-color: #fff;
+}
+
+#clientExpIco{
+    width: 24px;
+    padding-top: 60px;
+    margin: 0px auto;
+    display: block;
+}
+
+.sectionH2{
+    color: #92969c;
+    font-weight: 900;
+    font-size: 14px;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.sectionH3{
+    color: #373737;
+    font-weight: 300;
+    font-size: 32px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+#dataClientExp{
+    max-width: 1200px;
+    width: 100%;
+    height: auto;
+    position: relative;
+    display: block;
+    margin: 0px auto;
+    padding-top: 60px;
+    padding-bottom: 80px;
+}
+
+#phoneDesk{
+    width: 90%;
+    max-width: 600px;
+    height: 500px;
+    margin: 0px auto;
+    background-size: contain;
+    background: url(/img/home/Iphone6Gold.png) center/contain no-repeat; 
+    background-attachment: scroll;
+    background-clip: border-box;
+    background-color: rgba(0, 0, 0, 0);
+    background-origin: padding-box;
+}
+
+.clientExpText h4{
+    font-weight: 200;
+    font-size: 22px;
+    color: #252525;
+}
+
+.clientExpText p{
+    font-weight: 400;
+    color: #92969c;
+    font-size: 14px;
+    line-height: 18px;
+    padding-top: 10px;
+}
+
+#clientExpText1{
+    max-width: 300px;
+    position: absolute;
+}
+
+#clientExpText2{
+    max-width: 300px;
+    position: absolute;
+}
+
+#clientExpText3{
+    max-width: 300px;
+    position: absolute;
+
+}
+
+@media(max-width:414px){
+    
+}
+
+@media(max-width:768px){
+    #dataClientExp{
+        padding-bottom: 140px;
+    }
+    #clientExpText1{
+        left: 40px;
+    }
+    #clientExpText2{
+        right: 10px;
+        margin-top: 380px;
+    }
+    #clientExpText3{
+        left: 40px;
+        margin-top: 500px;
+    }
+}
+
+@media(max-width:960px){
+    #dataClientExp{
+        padding-bottom: 140px;
+    }
+    #clientExpText1{
+        left: 40px;
+    }
+    #clientExpText2{
+        right: 10px;
+        margin-top: 380px;
+    }
+    #clientExpText3{
+        left: 40px;
+        margin-top: 500px;
+    }
+}
+
+@media(min-width:960px){
+    #dataClientExp{
+        padding-bottom: 140px;
+    }
+    #clientExpText1{
+        left: 120px;
+    }
+    #clientExpText2{
+        right: 100px;
+        margin-top: 380px;
+    }
+    #clientExpText3{
+        left: 120px;
+        margin-top: 500px;
+    }
+}
+
+
+/*Advisor Section */
+#advisorSection{
+    width: 100%;
+    min-height: 800px;
+    height: auto;
+    position: relative;
+    background-color: #ebf1f5;
+    overflow-x: hidden;
+    padding-bottom: 40px;
+}
+
+#advisorExpIco{
+    width: 42px;
+    padding-top: 60px;
+    margin: 0px auto;
+    display: block;
+}
+
+#advisorExpH2{
+    color: #92969c;
+    font-weight: 900;
+    font-size: 14px;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 10px;
+}
+
+#advisorExpH3{
+    color: #373737;
+    font-weight: 300;
+    font-size: 32px;
+    text-align: center;
+    padding-top: 10px;
+    font-family: 'Helvetica';
+}
+
+#advisorHomeCont{
+    width: 90%;
+    max-width: 1000px;
+    padding: 40px 5%;
+    margin: 0px auto;
+    display: block;
+}
+
+#advisorHomeTextSection{
+    position: relative;
+    display: inline-block;
+    width: 50%;
+    float: left;
+    min-height: 300px;
+    padding-bottom: 40px;
+    padding-top: 40px;
+}
+
+.advisorTextCont{
+    width: 100%;
+    height: auto;
+    position: relative;
+    display: block;
+    min-height: 100px;
+}
+
+.advisorIcon{
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    padding-right: 15px;
+    float: left;
+    
+}
+
+.advisorText{
+    width: calc(100% - 95px);
+    display: inline-block;
+    float: left;
+    height: auto;
+    padding-right: 20px;
+    margin-bottom: 50px;
+}
+
+.advisorText h4{
+    font-family: 'Lato', 'Helvetica';
+    font-weight: 200;
+    font-size: 22px;
+    color: #252525;
+}
+
+.advisorText p{
+    font-weight: 400;
+    color: #92969c;
+    font-size: 14px;
+    line-height: 18px;
+    padding-top: 10px;
+}
+
+
+#advisorTextIcon{
+    width: 100%;
+}
+
+#advisorDashImg{
+    position: absolute;
+    height: 500px;
+    left: 55%;
+}
+
+.advisorImgWrapper{
+    -webkit-overflow: hidden;
+}
+
+@media(max-width: 768px){
+    #advisorDashImg{
+        height: 600px;
+        left:55%;
+    }
+}
+
+
+#integrationsSection{
+    max-width: 960px;
+    margin: 0px auto;
+    padding: 0px 2.5%;
+    display: block;
+    min-height: 100px;
+    width: 95%;
+    
+}
+
+#integrationsGroupImg{
+    max-width: 600px;
+    margin: 0px auto;
+    display: block;
+    padding: 0px 2.5%;
+}
+
+
+@media(max-width: 768px){
+    #advisorSection{
+        min-height: 1000px;
+    }
+    #integrationsSection{
+        margin-top: 620px;
+    }
+}
+
+@media(min-width: 769px){
+    #advisorSection{
+        min-height: 940px;
+    }
+    #integrationsSection{
+        margin-top: 540px;
+    }
+}
+
+
+/* What we cover */
+#OurUpdates{
+    width: 100%;
+    min-height: 800px;
+    height: auto;
+    position: relative;
+    background-color: #fff;
+    overflow-x: hidden;
+    padding-bottom: 40px;
+}
+
+#updatesIcon{
+    width: 34px;
+    padding-top: 60px;
+    margin: 0px auto;
+    display: block;
+}
+
+#ourUpdatesContent{
+    width: 90%;
+    margin: 0px auto;
+    padding: 30px 5%;
+    max-width: 800px;
+}
+
+#leftSectorsDiv{
+    width: 40%;
+    display: inline-block;
+    float: left;
+    min-height: 300px;
+    padding-top: 50px;
+}
+
+.selectorCont{
+    width: 95%;
+    display: block;
+    margin-right: 5%;
+    height: auto;
+    height: 36px;
+}
+
+.selectorIndicatorCont{
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    float: left;
+    margin-right: 20px;
+    margin-top: 10px;
+}
+
+.selectorIndicator{
+    width: 20px;
+    display: none;
+}
+
+.selectorText{
+    width: calc(100% - 40px);
+    display: inline-block;
+    float: left;
+}
+
+.SelectTextCont{
+    padding: 4px 10px;
+    border-radius: 3px;
+    white-space: normal;
+    border: 1.5px rgba(0,0,0,0) solid;
+    color: #92969c;
+    font-weight: 500;
+    display: inline-block;
+    font-weight: 700;
+    font-size: 12px;
+}
+
+.SelectTextCont:hover{
+    color: #4777db;
+    border: 1.5px #92969c solid;
+}
+
+.selectActive{
+    color: #4777db;
+    border: 1.5px #92969c solid;
+}
+
+.selectActiveIndicator{
+    display: block !important;
+}
+
+#ContentAreaUpdates{
+    width: 60%;
+    display: inline-block;
+    min-height: 500px;
+}
+
+#ContentAreaUpdatesContainer{
+    max-width: 300px;
+    margin-left: 15%;
+    height: auto;
+    min-height: 400px;
+    padding-top: 20px;
+}
+
+#changingPhoneDiv{
+    height: auto;
+    width: 100%;
+    display: block;
+}
+
+#changingPhone{
+    width: 100%;
+}
+
+#changingTextIconDiv{
+    width: 100%;
+    min-height: 100px;
+    height: auto;
+    display: block;
+    padding-top: 20px;
+}
+
+.changingIconDiv{
+    width: 48px;
+    height: 100%;
+    min-height: 48px;
+    float: left;
+    display: inline-block;
+    padding-right: 20px;
+}
+
+.changingIcon{
+    width: 48px;
+}
+
+.changingText{
+    width: calc(100% - 68px);
+    height: 100%;
+    display: inline-block;
+    float: left;
+}
+
+.changingTextH4{
+    color: #252525;
+    font-weight: 300;
+    font-size: 20px;
+}
+
+.changingTextP{
+    color: #92969c;
+    font-size: 14px;
+    line-height: 18px;
+    padding-top: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

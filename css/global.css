@@ -1,0 +1,197 @@
+/**********************************************
+*
+* 1. Global Styles
+*
+**********************************************/
+
+body{
+    margin: 0;
+    padding: 0;
+    line-height: 26px;
+    letter-spacing: 0.5px;
+    min-height:100%;
+    min-width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    font-soothing: antialiased;
+}
+
+@import url(http://nicholastodor.com/sf/usesf.css);
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'San Francisco Display', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    text-decoration: none;
+}
+
+h1 h2 h3 h4 p{
+    font-weight: 400;
+    padding: 0;
+    margin: 0;
+    line-height: 26px;
+    font-weight: 300;
+    color: #252525;
+}
+
+h1 h2 h3 h4 h5{
+    font-family: 'San Francisco Display', sans-serif;
+}
+
+p{
+    font-family: "proxima-nova", 'Helvetica', san-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:visited{
+    text-decoration: none;
+}
+
+input, textarea, select, a { 
+    outline: none; 
+    box-shadow: none;
+}
+
+/**********************************************
+*
+* 2. Header
+*
+**********************************************/
+
+header{
+    position: absolute;
+    width: 100%;
+    height: auto; 
+    background: none;
+    z-index: 100000;
+}
+
+.header{
+	width: 100%;
+	min-width: 400px;
+	position: relative;
+	margin: auto;
+	height: 60px;
+	display: block;
+    background: none;
+}
+
+.homelogo{
+	position: relative;
+	display: inline-block;
+	height: 50px;
+	padding-top: 25px;
+	float: left;
+	margin-left: 2.5%;
+}
+
+#homelogo{
+	height: 60px;
+}
+
+.headerlinkscont{
+	position: relative;
+	display: inline-block;
+	width: auto;
+	min-height: 60px;
+	padding-top: 35px;
+	float: right;
+	margin-right: 2.5%;
+}
+
+.headerlinks{
+	display: inline-block;
+	margin-left: 20px;
+	float: right;
+	font-weight: 700;
+	text-transform: ;
+	font-size: 12px;
+    padding: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    opacity: 0.6;
+    border-radius: 4px;
+    color: #fff;
+}
+
+.headerlinks:hover{
+    opacity: 1;
+    background-color: rgba(255,255,255,0.05);
+}
+
+#nav_link_p_r_login{
+    border: 1px rgba(255,255,255,0.5) solid;
+    border-radius: 4px;
+    padding: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top: -1px;
+}
+
+/**********************************************
+*
+* 3. Footer
+*
+**********************************************/
+
+
+
+
+
+
+
+
+/**********************************************
+*
+* 4. Imported Fonts
+*
+**********************************************/
+@import url(http://fonts.googleapis.com/css?family=Lato:400,100,300,700,900);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

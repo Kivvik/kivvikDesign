@@ -1,6 +1,12 @@
 #home{
     background-color: #2e3840;
-    overflow-x: hidden;
+    overflow-x: hidden !important;
+}
+
+@media(max-width: 414px){
+    html{
+        overflow-x: hidden;
+    }
 }
 
 #homeHeroSection{
@@ -11,6 +17,23 @@
     display: block;
     height: 200px;
     top: -60px;
+}
+
+@media(max-width: 414px){
+    #homeImgmobile{
+        width: 100%;
+        position: absolute;
+        top:0;
+        left: 0;
+        display: block;
+        z-index: -1;
+    }
+    #homeImg1400{
+        display: none;
+    }
+    #homeImgUltraWide{
+        display: none;
+    }
 }
 
 @media(max-width: 1400px){
@@ -25,10 +48,16 @@
     #homeImgUltraWide{
         display: none;
     }
+    #homeImgmobile{
+        display: none;
+    }
 }
 
 @media(min-width: 1400px){
     #homeImg1400{
+        display: none;
+    }
+    #homeImgmobile{
         display: none;
     }
     
@@ -39,6 +68,23 @@
         left: 0;
         display: block;
         z-index: -1;
+    }
+}
+
+@media(max-width: 414px){
+    #homeImgmobile{
+        width: 100%;
+        position: absolute;
+        top:0;
+        left: 0;
+        display: block;
+        z-index: -1;
+    }
+    #homeImg1400{
+        display: none;
+    }
+    #homeImgUltraWide{
+        display: none;
     }
 }
 
@@ -122,6 +168,7 @@
     float: left;
     height: 100%;
     width: calc(100% / 3);
+    display: inline-block;
 }
 
 .homeStatWrapper{
@@ -137,6 +184,12 @@
     margin: 0px auto;
     position: relative;
     display: block;
+}
+
+@media(max-width: 414px){
+    #homeStats{
+        display: none;
+    }
 }
 
 /*Home Section 2*/
@@ -216,6 +269,13 @@
     margin: auto;
 }
 
+@media(max-width: 414px){
+    #homeDashImg{
+        width: 90%;
+        padding-top: 25px;
+    }
+}
+
 /*Blue Divider One*/
 .blueDividerSection{
     width: 100%;
@@ -260,6 +320,12 @@
     display: block;
 }
 
+@media(max-width: 414px){
+    #clientExpIco{
+        width: 20px;
+    }
+}
+
 .sectionH2{
     color: #92969c;
     font-weight: 900;
@@ -269,12 +335,24 @@
     padding-top: 10px;
 }
 
+@media(max-width: 414px){
+    .sectionH2{
+        font-size: 12px !important;
+    }
+}
+
 .sectionH3{
     color: #373737;
     font-weight: 300;
     font-size: 32px;
     text-align: center;
     padding-top: 10px;
+}
+
+@media(max-width: 414px){
+    .sectionH3{
+        font-size: 1.6em !important;
+    }
 }
 
 #dataClientExp{
@@ -331,9 +409,8 @@
 
 }
 
-@media(max-width:414px){
-    
-}
+
+
 
 @media(max-width:768px){
     #dataClientExp{
@@ -386,6 +463,34 @@
     }
 }
 
+@media(max-width: 414px){
+    #clientExpText1,#clientExpText2,#clientExpText3{
+    position: relative;
+    left: auto;
+    right: auto;
+    text-align: center;
+    margin: 0px auto;  
+    }
+    #clientExpText1{
+        padding-top: 440px;
+    }
+    #clientExpText2{
+        padding-top: 40px;
+    }
+    #clientExpText3{
+        margin-top: 0px;
+        padding-top: 40px;
+
+    }
+    #phoneDesk{
+        margin-top: -130px;
+    }
+    
+    #clientExpHome{
+        min-height: 1000px;
+    }
+}
+
 
 /*Advisor Section */
 #advisorSection{
@@ -403,6 +508,12 @@
     padding-top: 60px;
     margin: 0px auto;
     display: block;
+}
+
+@media(max-width: 414px){
+    #advisorExpIco{
+        width: 30px;
+    }
 }
 
 #advisorExpH2{
@@ -441,6 +552,16 @@
     padding-top: 40px;
 }
 
+@media(max-width: 414px){
+    #advisorHomeTextSection{
+        width: 90%;
+        margin: 0px auto;
+        display: block;
+        float: none;
+        text-align: center;
+    }
+}
+
 .advisorTextCont{
     width: 100%;
     height: auto;
@@ -448,6 +569,7 @@
     display: block;
     min-height: 100px;
 }
+
 
 .advisorIcon{
     position: relative;
@@ -459,6 +581,18 @@
     
 }
 
+@media(max-width: 414px){
+    .advisorIcon{
+        display: block;
+        margin: 0px auto;
+        position: relative;
+        width: 60px;
+        padding: 0;
+        float: none;
+        margin-top: 10px;
+    }
+}
+
 .advisorText{
     width: calc(100% - 95px);
     display: inline-block;
@@ -466,6 +600,18 @@
     height: auto;
     padding-right: 20px;
     margin-bottom: 50px;
+}
+
+@media(max-width: 414px){
+    .advisorText{
+        display: block;
+        margin: 0px auto;
+        width: 100%;
+        float: none;
+        position: relative;
+        padding-top: 10px;
+        padding-bottom: 30px;
+    }
 }
 
 .advisorText h4{
@@ -487,6 +633,7 @@
 #advisorTextIcon{
     width: 100%;
 }
+
 
 #advisorDashImg{
     position: absolute;
@@ -529,6 +676,21 @@
     }
 }
 
+@media(max-width: 414px){
+    #advisorDashImg{
+        position: relative;
+        left: 35%;
+        right: auto;
+        height: 320px;
+        margin-top: 0px;
+    }
+    #advisorDashImg2{
+        left: 5%;
+        height: 300px;
+        margin-top: 40px;
+    }
+}
+
 
 #integrationsSection{
     max-width: 960px;
@@ -566,6 +728,17 @@
     }
 }
 
+@media(max-width: 414px){
+    #integrationsSection{
+        margin-top: 0px;
+    }
+    #integrationsGroupImg{
+        width: 98%;
+        margin: 0px auto;
+        padding: 0px;
+    }
+}
+
 
 /* What we cover */
 #OurUpdates{
@@ -576,6 +749,13 @@
     background-color: #fff;
     overflow-x: hidden;
     padding-bottom: 40px;
+    display: block;
+}
+
+@media(max-width: 414px){
+    #OurUpdates{
+        display: none;
+    }
 }
 
 #updatesIcon{
@@ -583,6 +763,12 @@
     padding-top: 60px;
     margin: 0px auto;
     display: block;
+}
+
+@media(max-width: 414px){
+    #updatesIcon{
+        padding-top: 30px;
+    }
 }
 
 #ourUpdatesContent{
@@ -730,6 +916,12 @@
     display: block;
 }
 
+@media(max-width: 414px){
+    #spotlightSection{
+        display: none;
+    }
+}
+
 #quotes{
     width: 40px;
     margin: 0px auto;
@@ -826,6 +1018,7 @@
     padding-bottom: 80px;
     margin: 0px auto;
     display: block;
+    overflow-x: hidden;
 }
 
 #pricingh2{
@@ -859,6 +1052,13 @@
     min-height: 100px;
     float: left;
     display: inline-block;
+}
+
+@media(max-width: 414px){
+    .pricingContbig{
+        width: calc(100% / 2);
+        margin-bottom: 20px;
+    }
 }
 
 .priceContSmall{
@@ -928,6 +1128,12 @@
     padding-top: 240px;
 }
 
+@media(max-width: 414px){
+    #pricingh32{
+        padding-top: 440px;
+    }
+}
+
 
 #demobtn{
     color: white;
@@ -971,6 +1177,17 @@
     -o-background-size: cover;
     -moz-background-size: cover;
     -webkit-background-size:cover;
+}
+
+@media(max-width: 414px){
+    #walkthroughbtnSection, #videotourbtnSection{
+        width: 100%;
+        display: block;
+        height: 250px;
+    }
+    #videotourbtnSection{
+        margin-bottom: 40px;
+    }
 }
 
 #walkthroughbtnSection{
@@ -1020,6 +1237,13 @@ background:
     margin: 0px auto;
 }
 
+@media(max-width: 414px){
+    .tourH3{
+        padding-top: 40px;
+        font-size: 0.7em;
+    }
+}
+
 .tourH4{
     color: white;
     position: relative;
@@ -1034,6 +1258,13 @@ background:
     height: 80px;
 }
 
+@media(max-width: 414px){
+    .tourH4{
+        padding-top: 20px;
+        font-size: 1.7em;
+    }
+}
+
 .tourP{
     text-align: center;
     color: white;
@@ -1044,8 +1275,22 @@ background:
     padding: 0px 5%;
 }
 
+@media(max-width: 414px){
+    .tourP{
+        padding-top: 0px;
+        font-size: 0.8em;
+    }
+}
 
-
+/*Mobile*/
+@media (max-width: 414px){
+    #homeH1{
+        font-size: 2em;
+    }
+    #homeH2{
+        font-weight: 1.5em;
+    }
+}
 
 
 

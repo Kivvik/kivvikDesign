@@ -138,8 +138,48 @@ header{
 }
 
 @media (max-width: 414px){
-    .header{
+    .headerlinkscont{
         display: none;
+    }
+    .homelogo{
+        display: block;
+        float: none;
+        margin: 0px auto;
+    }
+}
+
+.headerMobile{
+    display: none;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 25px;
+    background: #fff;
+    border-top: 1px solid rgba(0,0,0,0.2);
+    position: fixed;
+    bottom: 0;
+    z-index: 1000;
+}
+
+#mobileHeaderWrapper{
+    width: 90%;
+    margin: 0px auto;
+    position: relative;
+    display: block;
+}
+
+.headerMobileitem{
+    width: calc(100% / 3);
+    display: inline-block;
+    float: left;
+    text-align: center;
+    font-size: 0.8em;
+    color: rgba(25,25,25,0.7);
+    font-weight: 700;
+}
+
+@media(max-width: 414px){
+    .headerMobile{
+        display: block;
     }
 }
 

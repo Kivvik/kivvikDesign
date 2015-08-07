@@ -11,6 +11,9 @@
     border: 1px rgba(25,25,25,0.7) solid;
 }
 
+#about{
+    overflow-x: hidden;
+}
 
 
 /*About Header*/

@@ -185,6 +185,12 @@
     
 }
 
+@media(max-width: 414px){
+    #step1Img{
+        width: 90%;
+    }
+}
+
 #surveySection{
     min-height: 900px;
 }
@@ -308,6 +314,14 @@
     padding-top: 40px;
 }
 
+@media(max-width: 414px){
+    #textActivitiesCont{
+        width: 100%;
+        text-align: center;
+        padding-bottom: 100px;
+    }
+}
+
 #iconActivities{
     width: 60px;
     margin-right: 20px;
@@ -315,6 +329,14 @@
     height: 100%;
     min-height: 60px;
     float: left;
+}
+
+@media(max-width: 414px){
+    #iconActivities{
+        display: block;
+        float: none;
+        margin: 0px auto;
+    }
 }
 
 #textActivities{
@@ -338,6 +360,15 @@
     padding-top: 10px;
 }
 
+@media(max-width: 414px){
+    #textActivities{
+        display: block;
+        float: none;
+        margin: 0px auto;
+        width: 100%;
+    }
+}
+
 #iconActivitiesImg{
     width: 60px;
 }
@@ -346,6 +377,17 @@
     width: 300px;
     position: absolute;
     left: 55%;
+}
+
+@media(max-width: 414px){
+    #clientActivities{
+        position: relative;
+        left: auto;
+        right: auto;
+        width: 80%;
+        margin: 0px auto;
+        display: block;
+    }
 }
 
 #emailreportingDiv{
@@ -368,10 +410,30 @@
     padding-bottom: 120px;
 }
 
+@media(max-width: 414px){
+    #emailreportingCont{
+        width: 100%;
+        text-align: center;
+        padding-bottom: 100px;
+        padding-top: 20px;
+    }
+}
+
 #emailreportingImg{
     width: 300px;
     position: absolute;
     margin-left: 5%;
+}
+
+@media(max-width: 414px){
+    #emailreportingImg{
+        position: relative;
+        left: auto;
+        right: auto;
+        width: 80%;
+        margin: 0px auto;
+        display: block;
+    }
 }
 
 #integrationsSection{
@@ -393,14 +455,31 @@
 
 
 @media(max-width: 768px){
+    #advisorSection{
+        min-height: 1000px;
+    }
     #integrationsSection{
-        margin-top: 20px;
+        margin-top: 100px;
     }
 }
 
 @media(min-width: 769px){
+    #advisorSection{
+        min-height: 940px;
+    }
     #integrationsSection{
-        margin-top: 40px;
+        margin-top: 100px;
+    }
+}
+
+@media(max-width: 414px){
+    #integrationsSection{
+        margin-top: 0px;
+    }
+    #integrationsGroupImg{
+        width: 98%;
+        margin: 0px auto;
+        padding: 0px;
     }
 }
 
@@ -432,6 +511,8 @@
     margin: 0px auto;
     padding-top: 40px;
 }
+
+
 
 #darkSecurityLeftContainer{
     width: 50%;
@@ -516,8 +597,78 @@
     text-transform: uppercase;
 }
 
+@media(max-width: 414px){
+    #darkLaunchSecuirtyContainer{
+        width: 90%;
+        display: block;
+    }
+    #darkSecurityLeftContainer h4{
+        font-size: 100px;
+        padding-left: 0;
+        text-align: center;
+    }
+    #darkSecurityP{
+        font-size: 15px;
+        line-height: 25px;
+        padding-top: 65px;
+    }
+    #darkSecurityWideContainer{
+        margin: 0px auto;
+        width: 90%;
+        text-align: center;
+    }
+    
+    #darkSecurityWideContainer > h3{
+        text-align: center;
+    }
+    #darkSecurityWideContainer > p{
+        text-align: center;
+    }
+}
 
 
+@media (max-width: 414px){
+    #section3DivLeft{
+        display: none;
+        width: 0px;
+    }
+    #section3DivRight{
+        width: 100%;
+        margin: 0px auto;
+        float: none;
+        margin-top: -40px;
+    }
+    .section3DivRightSections{
+        height: 200px;
+        display: block;
+        float: none;
+    }
+    .s2DRSDivImg{
+        padding: none;
+        float: none;
+        padding-right: 0px;
+        display: block;
+        width: 60%;
+        margin: 0px 20%;
+    }
+    .section3DivRightSectionsIMG{
+        margin: auto;
+        position: relative;
+        display: block;
+    }
+    .s2DRSDivP{
+        width: 80%;
+        margin: 0px 10%;
+        text-align: center;
+        float: none;
+        display: block;
+        padding-right: 0px;
+        margin-top: -30px;
+        padding-bottom: 40px;
+    }
+
+
+}
 
 
 

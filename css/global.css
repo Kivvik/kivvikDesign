@@ -4,6 +4,10 @@
 *
 **********************************************/
 
+html{
+    overflow-x: hidden;
+}
+
 body{
     margin: 0;
     padding: 0;
@@ -12,7 +16,6 @@ body{
     min-height:100%;
     min-width: 100%;
     max-width: 100%;
-    overflow-x: hidden !important;
     text-rendering: optimizeLegibility !important;
     -webkit-font-smoothing: antialiased;
     font-soothing: antialiased;

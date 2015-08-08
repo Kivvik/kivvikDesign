@@ -436,6 +436,12 @@
     }
 }
 
+@media(min-width: 1400px){
+    #emailreportingImg{
+        margin-left: 0;
+    }
+}
+
 #integrationsSection{
     max-width: 960px;
     margin: 0px auto;

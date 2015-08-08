@@ -1,0 +1,109 @@
+#privacy footer, #termofuse footer{
+    background-color: #2e3840;
+}
+
+#legalHeadingSection{
+   width: 100%;
+    height: auto;
+    min-height: 280px;
+    position: relative;
+    display: block;
+    height: 200px;
+    top: -60px;
+    background: url(/img/legal/legalHeroImg.jpg) no-repeat center center ; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+    background-color: none;
+}
+
+#privacyH1{
+    font-weight: 300;
+    color: white;
+    font-size: 38px;
+    padding-top: 150px;
+    text-align: center;
+    transition-duration: 2s;
+    transition-delay: 1s;
+}
+
+.legalBody{
+    max-width: 900px;
+    margin: 0px auto;
+    padding: 0px 5%;
+    padding-bottom: 80px;
+}
+
+.bodySection{
+    padding-bottom: 40px;
+}
+
+.legalHeading{
+    font-size: 24px;
+    color: rgba(25,25,25,0.8);
+    font-weight: 600;
+    padding-bottom: 10px;
+}
+
+.legalParagraph{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #555459;
+    padding-bottom: 10px;
+}
+
+.normalList li{
+    padding-bottom: 6px;
+    padding-left: 30px;
+}
+
+.nobullets{
+    list-style-type: none;
+}
+
+#legalLinks li{
+    display: inline-block;
+    border-right: 1px solid #555459;
+    padding-right: 10px;
+    padding-left: 8px;
+    text-decoration: none;
+    color: #555459;
+    font-weight: 600;
+    line-height: 16px;
+    margin-bottom: 5px;
+}
+
+#termslink{
+    color: #4777db;
+    font-weight: 700;
+    font-size: 13px;
+}
+
+.indent{
+    padding-left: 30px;
+}
+
+.indent2x{
+    padding-left: 60px;
+}
+
+.largerText{
+    font-size: 16px;
+    margin-left: -10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

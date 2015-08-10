@@ -311,6 +311,7 @@
     height: auto;
     position: relative;
     background-color: #fff;
+    padding-bottom: 40px;
 }
 
 #clientExpIco{
@@ -776,9 +777,10 @@
     margin: 0px auto;
     padding: 30px 5%;
     max-width: 800px;
+    min-height: 660px;
 }
 
-#leftSectorsDiv{
+#ourUpdatesContent ul {
     width: 40%;
     display: inline-block;
     float: left;
@@ -786,15 +788,14 @@
     padding-top: 50px;
 }
 
-.selectorCont{
+#ourUpdatesContent ul li {
     width: 95%;
     display: block;
     margin-right: 5%;
-    height: auto;
-    height: 36px;
+    height: 26px;
+    padding: 5px 0;
 }
-
-.selectorIndicatorCont{
+/*.selectorIndicatorCont{
     width: 20px;
     height: 20px;
     display: inline-block;
@@ -812,29 +813,45 @@
     width: calc(100% - 40px);
     display: inline-block;
     float: left;
-}
+}*/
 
-.SelectTextCont{
-    padding: 4px 10px;
-    border-radius: 3px;
+#ourUpdatesContent ul li a {
+    padding: 4px 4px;
     white-space: normal;
     color: #92969c;
     font-weight: 500;
     display: inline-block;
     font-weight: 700;
     font-size: 12px;
+    text-decoration: none;
+    line-height: 16px;
 }
 
-.SelectTextCont:hover{
+#ourUpdatesContent ul li a:hover, #ourUpdatesContent ul li.selectActive a {
     color: #4777db;
 }
 
-.selectActive{
-    color: #4777db;
+#ourUpdatesContent ul li.selectActive:before {
+    content: '';
+    display: inline-block;
+    background: url('../img/home/indicatorBlue.svg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 27px;
+    height: 27px;
+    margin-right: 10px;
+    vertical-align: middle;
 }
 
-.selectActiveIndicator{
-    display: block !important;
+#ourUpdatesContent ul li:before {
+    content: '';
+    display: inline-block;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 27px;
+    height: 27px;
+    margin-right: 10px;
+    vertical-align: middle;
 }
 
 #ContentAreaUpdates{
@@ -861,11 +878,11 @@
     width: 100%;
 }
 
-#changingTextIconDiv{
+.changingTextIconDiv{
     width: 100%;
     min-height: 100px;
     height: auto;
-    display: block;
+    /*display: block;*/
     padding-top: 20px;
 }
 
@@ -880,6 +897,14 @@
 
 .changingIcon{
     width: 48px;
+}
+
+.changingTextIconDiv {
+    display: none;
+}
+
+#child {
+    display: block;
 }
 
 .changingText{

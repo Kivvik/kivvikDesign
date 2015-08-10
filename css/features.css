@@ -676,9 +676,32 @@
 
 }
 
+#complianceBtnWrapper{
+    width: 330px;
+    margin: 0px auto;
+    display: block;
+    position: relative;
+    margin-top: 30px;
+}
 
+#complianceBtn{
+    text-align: center;
+    width: auto;
+    display: inline-block;
+    width: 330px;
+    border: 1px solid #fff;
+    border-radius: 3px;
+    opacity: 0.5;
+    margin: 0px auto;
+    color: #fff;
+    left: 50%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
 
-
+#complianceBtn:hover{
+    opacity: 0.8;
+}
 
 
 

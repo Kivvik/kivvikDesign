@@ -25,29 +25,15 @@
 
     
     <script>
-      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-      ga('create', 'UA-48658047-1', 'auto');
-      ga('send', 'pageview');
+  ga('create', 'UA-48658047-1', 'auto');
+  ga('send', 'pageview');
 
-      /*$(function() {
-        $('#client_tiles').carousel({
-            itemWidth: 220,
-            itemHeight: 370,
-            startIndex: 0,
-            distance: 50,
-            preload: false,
-            selectByClick: true,
-            gradientOverlayVisible: false,
-            enableMouseWheel: false,
-            unselectedItemAlpha: 0.4
-        });
-      });*/
-
-    </script>
+</script>
     <script src="//use.typekit.net/tdt8axn.js"></script>
 <script>try{Typekit.load({ async: true });}catch(e){}</script>
 </head>
@@ -91,19 +77,19 @@
     
     <section id="pageDescription">
         <h3>A simple 3 step process</h3>
-        <p>We send your clients a secure email link allowing them to submit an update in less 30 seconds. No need to login or download an app.</p>
+        <p>We send your clients a secure email link allowing them to submit an update in less 30 seconds. There's no need for them to log into anything or download an app.</p>
     </section>
     
     <nav id="pageLinks" class=".main-nav">
         <div id="featuresFixedNav">
             <div class="fnavcontainer">
-                <div class="fnavLink">1. Client Import</div>
+                <a data-scroll href="#addClientSection"><div class="fnavLink">1. Client Import</div></a>
             </div>
             <div class="fnavcontainer">
-                <div class="fnavLink">2. Client Process</div>
+                <a data-scroll href="#surveySection"><div class="fnavLink">2. Client Process</div></a>
             </div>
             <div class="fnavcontainer">
-                <div class="fnavLink">3. Reporting</div>
+                <a data-scroll href="#reportingSection"><div class="fnavLink">3. Reporting</div></a>
             </div>
         </div>
     </nav>
@@ -113,9 +99,9 @@
         <img class="featureIcon" id="#" src="/img/features/uploadIcon.svg"/>
         <h2 class="featureStep">Step 1</h2>
         <h3 class="featureH3">Add your clients</h3>
-        <p class="featureP">Getting started is extremely easy. Simply add your clients from your CRM by either using one of our single sign-on integration partners or uploading clients via a CSV file. 
+        <p class="featureP">Getting started is extremely easy. Simply add your clients from your CRM by either using one of our single sign-on integration partners or uploading clients via a CSV file.
 <br><br>
-Once added, you can select how often you would like to check in with them. Either every 30, 60, or 90 days to customize individual outreach frequencies per client.</p>
+Once added, you can select how often you would like to check in with them. It can be in intervals of 30, 60, or 90 days.</p>
         <img id="step1Img" src="/img/features/IntegrationsSection.png"/>
     </section>
     
@@ -123,7 +109,7 @@ Once added, you can select how often you would like to check in with them. Eithe
         <img class="featureIcon" id="#" src="/img/features/surveyIcon.svg"/>
         <h2 class="featureStep">Step 2</h2>
         <h3 class="featureH3">Client completes survey</h3>
-        <p class="featureP">With our comprehensive list of life events, your client can easily select relevant life events about which to inform you. </p>
+        <p class="featureP">With our comprehensive list of life events, your client can easily select relevant and important life events.</p>
         <div id="section3Div">
             <div id="section3DivLeft">
                 <video class="section3DivLeftVideo" autoplay loop poster="/img/features/04.SlowIphoneVidPoster.png"> //EDIT: loop="true" and  autoplay="autoplay" are deprecated
@@ -154,7 +140,7 @@ Once added, you can select how often you would like to check in with them. Eithe
         <img class="featureIcon" id="#" src="/img/features/reportingIcon.svg"/>
         <h2 class="featureStep">Step 3</h2>
         <h3 class="featureH3">Integrated client reporting</h3>
-        <p class="featureP">Once an update is submitted you can digest the information via an online dashboard, an email report or, within an integrated CRM.</p>
+        <p class="featureP">Once an update is submitted, you can see the information via an online dashboard, an email report, or within an integrated CRM.</p>
         <img id="step3Img" src="/img/features/dashWSideNav.png"/>
         
         <div id="activitiesDiv">
@@ -186,6 +172,10 @@ Once added, you can select how often you would like to check in with them. Eithe
         
         <div id="integrationsSection">
             <img id="integrationsGroupImg" src="/img/home/integrationsgroup.png"/>
+        </div>
+        
+        <div id="integrationsDashCont">
+            <img id="" src="/img/features/RedTailDash.png" />
         </div>
         
     </section>
@@ -288,7 +278,9 @@ Once added, you can select how often you would like to check in with them. Eithe
     
     
     
-    
+   <script>
+    smoothScroll.init();
+</script> 
     
     
     

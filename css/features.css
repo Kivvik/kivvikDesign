@@ -133,6 +133,8 @@
     padding-bottom: 40px;
 }
 
+
+
 .featureIcon{
     margin: 0px auto;
     position: relative;
@@ -175,6 +177,8 @@
     background-color: #f3f5f9;
     min-height: 1400px;
     overflow-x: hidden;
+    padding-bottom: 0px;
+    margin-bottom: -5px;
 }
 
 #step1Img{
@@ -704,8 +708,18 @@
 }
 
 
+#integrationsDashCont{
+    padding-top: 20px;
+}
 
-
+#integrationsDashCont img{
+    max-width: 800px;
+    width: 80%;
+    margin: 0px auto;
+    display: block;
+    position: relative;
+    height: auto;
+}
 
 
 

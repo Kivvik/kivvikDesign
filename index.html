@@ -1,685 +1,82 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="utf-8" />
-	<title>Kivvik Outreach</title>
-	<meta name="description" content="Welcome to Kivvik Wealth, Your Personal Client Outreach Assistant. From a new home to a new member of their family, let Kivvik keep you informed.">
-    <meta name='copyright' content='Kivvik Incorporated'>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-
-	<link type="image/x-icon" href="https://s3.amazonaws.com/Web_Application_Assets/Global+Assets/kivvik_logo.png" rel="SHORTCUT ICON">
-    <meta property="og:image" content="https://s3.amazonaws.com/Web_Application_Assets/Global+Assets/kivvikSocialMediaImage.png" />
-    <link rel="image_src" href="https://s3.amazonaws.com/Web_Application_Assets/Global+Assets/kivvik_logo_full.png"/>
-
-	<link href="css/global.css" rel="stylesheet" type="text/css">
-    <link href="css/home.css" rel="stylesheet" type="text/css">
-    <link href="css/customAnimations.css" rel="stylesheet" type="text/css">
-    <link type="text/css" rel="stylesheet" href="css/animate.css" />
-
-    <script type="text/javascript" src="/js/app.js"></script>
-    <script type="text/javascript" src="js/jquery-1.11.1.min.js"> </script>
-    <script src='js/scripts.js' type='text/javascript'></script>
-    <script src='js/carousel.js' type='text/javascript'></script>
-    <script src="js/smooth-scroll.min.js"></script>
-    <script src="js/scrollReveal.min.js"></script>
-
-    <script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-48658047-1', 'auto');
-  ga('send', 'pageview');
-
-</script>
-    <script src="//use.typekit.net/tdt8axn.js"></script>
-<script>try{Typekit.load({ async: true });}catch(e){}</script>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>Record. Annotate. Search.</title>
+        <meta name="description" content="The Kivvik Risk Game Presentation">
+        <meta name='copyright' content='Kivvik Design'>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link type="image/x-icon" href="" rel="SHORTCUT ICON">
+        <link href="/css/global.css" rel="stylesheet" type="text/css">
+        <link href="/css/home.css" rel="stylesheet" type="text/css"> 
+        <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'>
+        <script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+        
 </head>
     
-<body id="home">
-    <header class="header animated fadeInDown">
-		<div class="homelogo">
-			<a href="/index.html"><img id="homelogo" src="/img/global/kivvikLogoWhite.png"></a>
+<body>
+    <section id="homeHero" class="sectionBody">
+        <div class="headerLinkContatiner">
+            <div class="logo"></div>
+            <div class="signUp"><a class="signUpBtnHeader" href="">Sign Up</a></div>
+        </div>
+        <div id="homeHeroCont">
+            <div id="heroTextContainer">
+                <h1 id="heroH1">
+                    Capture the full potential of your conversations.
+                </h1>
+                <h2 id="heroH2">
+                    <i>Add context to your audio recordings by directly linking notes & assigning tasks allowing you to search your audio by what was said.</i>
+                </h2>
+				<div id="signUpFormContainer">
+					<form action="http://meetingmanagement.createsend.com/t/i/s/ittjdy/" method="post" id="subForm">
+						<p>
+							<label class="hide" for="fieldEmail">Email</label><br />
+							<input id="fieldEmail" name="cm-ittjdy-ittjdy" type="email" required placeholder="Enter your email for preview access"/>
+						</p>
+						<p>
+							<button id="submit" type="submit">Sign Up</button>
+						</p>
+					</form>
+				</div>
+				
+				
+            </div>
+            <div id="heroImgContainer">
+                <img id="heroImg" src="/img/home/HeroAudioImg.png"/>
+            </div>
+        </div>
+    </section>
+	
+	<section id="logos" class="sectionBody">
+	
+	</section>
+	
+	<section id="revolutionizeSection" class="sectionBody">
+		<h2 id="revh2" class="homeH2">Revolutionize your in-meeting notes and tasks.</h2>
+		<div id="revolutionContent">
+			<div id="revImgContainer">
+				<img id="revImg" src="/img/home/revolutionizeBrowser.png"/>
+			</div>
+			<div id="revTextContainer">
+				<div class="revTextContent">
+					<h3>Contextual Notes</h3>
+					<p>Give your notes context by linking them to points in the conversation. Play back that specific sound byte without having to tediously sift through long recordings.
+</p>
+				</div>
+				<div class="revTextContent">
+					<h3>Set Actionable Tasks</h3>
+					<p>Quickly create reminders mid discussion without worrying about losing the context that sparked the necessity.
+</p>
+				</div>
+				<div class="revTextContent">
+					<h3>Flag Important Topics</h3>
+					<p>For discussions that require your undivided attention, flag important talk points of interest as you progress to review later. All with a push of a button.
+</p>
+				</div>
+			</div>
+			
 		</div>
-		<div class="headerlinkscont">
-			<a href="https://wealthapp.kivvik.com/#!/auth/login"><p class="headerlinks" id="nav_link_p_r_login">Log In</p></a>
-            <a href="about.html"><p class="headerlinks" id="nav_link_p_r">About Us</p></a>
-            <a data-scroll href="/index.html#pricing"><p class="headerlinks" id="nav_link_p_r">Pricing</p></a>
-            <a href="../compliance.html"><p class="headerlinks" id="nav_link_p_r">Compliance</p></a>
-            <a href="../guidedtour.html"><p class="headerlinks" id="navResponsive">Video Tours</p></a>
-            <a href="../features.html"><p class="headerlinks" id="nav_link_p_r">Features</p></a>
-		</div>
-    </header>
-    
-    <div class="headerMobile animated fadeInUp">
-        <div id="mobileHeaderWrapper">
-            <a href="/features.html"><div class="headerMobileitem">
-                Features
-            </div></a>
-            <a href="/guidedtour.html"><div class="headerMobileitem">
-                Video Tours
-            </div></a>
-            <a href="/index.html#pricing"><div class="headerMobileitem">
-                Pricing
-            </div></a>
-        </div>    
-    </div>
-    
-    <section id="homeHeroSection">
-        <img id="homeImg1400" src="/img/home/homeHero.png"/>
-        <img id="homeImgUltraWide" src="/img/home/homeHeroUltraWide.png"/>
-        <img id="homeImgmobile" src="/img/home/homeHeroMobile.png"/>
-        <h1 id="homeH1" class="animated fadeIn">Stay up-to-date with your clients' life events.</h1>
-        <h2 id="homeH2" class="animated fadeIn">Eliminate blind emails, calls and manual outreach forms. Automated outreach works in the background to send life updates directly to your inbox.</h2>
-        <a href="https://wealthapp.kivvik.com/#!/auth/register">
-                    <div id="signUpBtnHomeTop" class="homeSignUpBtn animated fadeIn">Try it for free</div>
-                </a>
-                <p id="noComitSignUp" class="animated fadeIn">No credit card required.</p>
-
-        <div id="homeStats">
-            <div class="homeStatCont">
-                <div id="homeStats1" class="homeStatWrapper">
-                    <img class="statImg" src="/img/home/stat1.png"/>
-                </div>
-            </div>
-            <div class="homeStatCont">
-                <div id="homeStats2" class="homeStatWrapper">
-                    <img class="statImg" src="/img/home/stat2.png"/>
-                </div>
-            </div>
-            <div class="homeStatCont">
-                <div id="homeStats3" class="homeStatWrapper">
-                    <img class="statImg" src="/img/home/stat3.png"/>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section id="homeSection2">
-        <h2 id="homeSec2H2">Invite, sit back, and relax.</h2>
-        <p id="homeSecP">Invite your clients. Choose the frequency of your outreach. Kivvik 
-sends life updates to your inbox as clients respond. We analyze years of 
-client-advisor communication to structure the most effective outreach.</p>
-        
-        <img id="homeDashImg" src="/img/home/dashboard.png"/>
-    
-    </section>
-    
-    <section id="blueDividerOne" class="blueDividerSection">
-        <h2>A Seamless experience for your clients</h2>
-        <p>We automate client outreach and CRM data entry to allow you to focus on advising your clients and furthering your business. Thoughtfully designed to keep up with your quality of service.</p>
-    </section>
-    
-    <section id="clientExpHome">
-        <img id="clientExpIco" src="/img/home/clientExpIco.png"/>
-        <h2 class="sectionH2" id="clientExpH2">The Client Experience</h2>
-        <h3 class="sectionH3" id="clientExpH3">What your clients see.</h3>
-        <div id="dataClientExp">
-            <div id="phoneDesk">
-                <div id="clientExpText1" class="clientExpText">
-                    <h4>Simple Structure</h4>
-                    <p>Kivvik analyzes years of client-advisor communication to develop a survey structure that encompasses the major life events of which advisors should be made aware.</p>
-                </div>
-                <div id="clientExpText2" class="clientExpText">
-                    <h4>Ease of Submisson</h4>
-                    <p>We designed a mobile-friendly interface for on-the-go submissions. By asking the right and most relevant questions, we ensure clients disclose complete details on their life event.</p>
-                </div>
-                <div id="clientExpText3" class="clientExpText">
-                    <h4>60x Response Rate</h4>
-                    <p>We have realized a significantly higher response rate when compared to open-ended outreach approaches. We ensure clients are carefully guided through the update submission process.</p>
-                </div>
-            </div>
-        </div>
-    </section>
-    
-    <section id="blueDividertwo" class="blueDividerSection">
-        <h2>A hands-off, turn-key solution for you</h2>
-        <p>We automate client outreach and CRM data entry to allow you to focus on advising your clients and furthering your business. Thoughtfully designed to keep up with your quality of service.</p>
-    </section>
-    
-    <section id="advisorSection">
-        <img id="advisorExpIco" src="/img/home/advisorSecIco.png"/>
-        <h2 class="sectionH2" id="advisorExpH2">Proactive Client Updates</h2>
-        <h3 class="sectionH3" id="advisorExpH3">What you recieve.</h3>
-        <div id="advisorHomeCont">
-            <div class="advisorImgWrapper">
-                <img id="advisorDashImg2" src="/img/home/AdvSection-Phone.png"/>
-                <img id="advisorDashImg" src="/img/home/AdvisorDashboard.png"/>
-            </div>
-            <div id="advisorHomeTextSection">
-                <div class="advisorTextCont">
-                    <div class="advisorIcon">
-                        <img id="advisorTextIcon" src="/img/home/emailAlerts.png"/>
-                    </div>
-                    <div class="advisorText">
-                        <h4>Email Alerts</h4>
-                        <p>A detailed email notification informs you of any client updates. You can reply within the email, call the client directly, or analyze the information on our dashboard.</p>
-                    </div>
-                </div>
-                
-                <div class="advisorTextCont">
-                    <div class="advisorIcon">
-                        <img id="advisorTextIcon" src="/img/home/eventUpdate.png"/>
-                    </div>
-                    <div class="advisorText">
-                        <h4>Event Update Organization</h4>
-                        <p>You will have full access to client submissions upon logging into the Kivvik Dashboard. Updates are organized on a chronological timeline and filterable by type.</p>
-                    </div>
-                </div>
-                
-                <div class="advisorTextCont">
-                    <div class="advisorIcon">
-                        <img id="advisorTextIcon" src="/img/home/CRMIntegrations.png"/>
-                    </div>
-                    <div class="advisorText">
-                        <h4>CRM Integrations</h4>
-                        <p>Starting with RedTail in mid-July, Kivvik will be able to automatically sync clients, create activities, notes and reminders to ensure you have all the information you need to keep track of your clients.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        
-        <div id="integrationsSection">
-            <img id="integrationsGroupImg" src="/img/home/integrationsgroup.png"/>
-        </div>
-    
-    </section>
-    
-    <section id="OurUpdates">
-        <img id="updatesIcon" class="homeLittleIcon" src="/img/home/ourUpdatesIco.png"/>
-        <h2 class="sectionH2" id="advisorExpH2">We cover it all</h2>
-        <h3 class="sectionH3" id="advisorExpH3">Our updates at a glance.</h3>
-        
-        <div id="ourUpdatesContent">
-            <ul>
-                <li class="selectActive">
-                    <a href="#child">Expecting a child</a>
-                </li>
-                <li>
-                    <a href="#college">College Savings</a>
-                </li>
-                <li>
-                    <a href="#vehicle">Vehicle (Buy / Sell)</a>
-                </li>
-                <li>
-                    <a href="#travel">Travel Plans</a>
-                </li>
-                <li>
-                    <a href="#marriage">Marriage / Engagement</a>
-                </li>
-                <li>
-                    <a href="#realEstate">Real Estate</a>
-                </li>
-                <li>
-                    <a href="#renovations">Renovations</a>
-                </li>
-                <li>
-                    <a href="#retirement">Retirement Changes</a>
-                </li>
-                <li>
-                    <a href="#employment">Employment Changes</a>
-                </li>
-                <li>
-                    <a href="#health">Health Issues</a>
-                </li>
-                <li>
-                    <a href="#inheritance">Inheritance</a>
-                </li>
-                <li>
-                    <a href="#divorce">Divorce / Separation</a>
-                </li>
-                <li>
-                    <a href="#other">Other Topics</a>
-                </li>
-            </ul>
-            
-            <div id="ContentAreaUpdates">
-                <div id="ContentAreaUpdatesContainer">
-                    <div id="changingPhoneDiv">
-                        <img id="changingPhone" src="/img/home/updatePhone.png"/>
-                    </div>
-
-                    <!-- Repeat this section to display all the updates text  -->
-                    <div class="changingTextIconDiv" id="child">
-                        <div class="changingIconDiv">
-                            <img class="changingIcon" src="/img/home/updates/01.ExpectingAChild.png"/>
-                        </div>
-                        <div class="changingText">
-                            <h4 class="changingTextH4">
-                                Expecting a Child
-                            </h4>
-                            <p class="changingTextP">
-                                Know when clients are expanding the family to help them plan for the exciting future. From college savings to changing insurance plans.
-                            </p>
-                        </div>
-                    </div>
-                    <div class="changingTextIconDiv" id="college">
-                        <div class="changingIconDiv">
-                            <img class="changingIcon" src="/img/home/updates/02.CollegeSavings.png"/>
-                        </div>
-                        <div class="changingText">
-                            <h4 class="changingTextH4">
-                                College Savings
-                            </h4>
-                            <p class="changingTextP">
-                                Help your clients plan to one of life’s major events: college. When your clients plan to begin saving, you will be notified, and can help them create a plan for success.
-                            </p>
-                        </div>
-                    </div>
-                    <div class="changingTextIconDiv" id="vehicle">
-                        <div class="changingIconDiv">
-                            <img class="changingIcon" src="/img/home/updates/03.Vehicle.png"/>
-                        </div>
-                        <div class="changingText">
-                            <h4 class="changingTextH4">
-                                Vehicle (Buy / Sell)
-                            </h4>
-                            <p class="changingTextP">
-                                See when your client intends to buy a new car, boat, or other vehicle, and help them factor it into their personal finances.
-                            </p>
-                        </div>
-                    </div>
-                    <div class="changingTextIconDiv" id="travel">
-                        <div class="changingIconDiv">
-                            <img class="changingIcon" src="/img/home/updates/04.Travel.png"/>
-                        </div>
-                        <div class="changingText">
-                            <h4 class="changingTextH4">
-                                Travel Plans
-                            </h4>
-                            <p class="changingTextP">
-                                Help your clients plan for any vacation or extended time away. Advise them on expenses, and make a couple recommendations to assist them!
-                            </p>
-                        </div>
-                    </div>
-                    <div class="changingTextIconDiv" id="marriage">
-                        <div class="changingIconDiv">
-                            <img class="changingIcon" src="/img/home/updates/05.Marriage.png"/>
-                        </div>
-                        <div class="changingText">
-                            <h4 class="changingTextH4">
-                                Marriage / Engagement
-                            </h4>
-                            <p class="changingTextP">
-                                An engagement leading to a wedding is one of the largest event in a person’s life, and most people do not plan for unforeseen related expenses that may impact their financial standing.
-                            </p>
-                        </div>
-                    </div>
-                    <div class="changingTextIconDiv" id="realEstate">
-                        <div class="changingIconDiv">
-                            <img class="changingIcon" src="/img/home/updates/07.RealEstate.png"/>
-                        </div>
-                        <div class="changingText">
-                            <h4 class="changingTextH4">
-                                Real Estate
-                            </h4>
-                            <p class="changingTextP">
-                                Real Estate tends to be one of the higher priced assets most people encounter. Help your clients navigate the complicated waters of the housing industry.
-                            </p>
-                        </div>
-                    </div>
-                    <div class="changingTextIconDiv" id="renovations">
-                        <div class="changingIconDiv">
-                            <img class="changingIcon" src="/img/home/updates/08.Rennovations.png"/>
-                        </div>
-                        <div class="changingText">
-                            <h4 class="changingTextH4">
-                               Renovations
-                            </h4>
-                            <p class="changingTextP">
-                                Renovations can be planned for until unforeseen events cause costs to skyrocket. Help your clients create a financial safety net to help them realize their vision.
-                            </p>
-                        </div>
-                    </div>
-                    <div class="changingTextIconDiv" id="retirement">
-                        <div class="changingIconDiv">
-                            <img class="changingIcon" src="/img/home/updates/09.Retirement.png"/>
-                        </div>
-                        <div class="changingText">
-                            <h4 class="changingTextH4">
-                                Retirement Changes
-                            </h4>
-                            <p class="changingTextP">
-                                Retirement plans can change for all sorts of reasons, from an expansion of the family, to a change in a person’s career. Reach out to clients to help them find the most optimal approach for their retirements.
-                            </p>
-                        </div>
-                    </div>
-                    <div class="changingTextIconDiv" id="employment">
-                        <div class="changingIconDiv">
-                            <img class="changingIcon" src="/img/home/updates/10.Employment.png"/>
-                        </div>
-                        <div class="changingText">
-                            <h4 class="changingTextH4">
-                                Employment Changes
-                            </h4>
-                            <p class="changingTextP">
-                                For most people, jobs and careers change over time. Help your client understand changes in cash flow to ensure they are putting the most toward both their long-term goals and immediate needs.
-                            </p>
-                        </div>
-                    </div>
-                    <div class="changingTextIconDiv" id="health">
-                        <div class="changingIconDiv">
-                            <img class="changingIcon" src="/img/home/updates/11.Health.png"/>
-                        </div>
-                        <div class="changingText">
-                            <h4 class="changingTextH4">
-                                Health Issues
-                            </h4>
-                            <p class="changingTextP">
-                                Unexpected health issues can arise at any point in anyone’s life. Assist clients in plan for stressful periods by ensuring that they have all the resources they need to make it through financially intact.
-                            </p>
-                        </div>
-                    </div>
-                    <div class="changingTextIconDiv" id="inheritance">
-                        <div class="changingIconDiv">
-                            <img class="changingIcon" src="/img/home/updates/12.Inheritance.png"/>
-                        </div>
-                        <div class="changingText">
-                            <h4 class="changingTextH4">
-                                Inheritance
-                            </h4>
-                            <p class="changingTextP">
-                                Inheritances and gifts can come all in all forms of assets. Help clients understand how to grow these assets and plan for the tax implications to keep them protected.
-                            </p>
-                        </div>
-                    </div>
-                    <div class="changingTextIconDiv" id="divorce">
-                        <div class="changingIconDiv">
-                            <img class="changingIcon" src="/img/home/updates/06.Divorce.png"/>
-                        </div>
-                        <div class="changingText">
-                            <h4 class="changingTextH4">
-                                Divorce / Separation
-                            </h4>
-                            <p class="changingTextP">
-                                Separation and divorce are times when financial turmoil is imminent. Help your clients plan through an event that affects all aspects of their lives.
-                            </p>
-                        </div>
-                    </div>
-                    <div class="changingTextIconDiv" id="other">
-                        <div class="changingIconDiv">
-                            <img class="changingIcon" src="/img/home/updates/13.Miscellaneous.png"/>
-                        </div>
-                        <div class="changingText">
-                            <h4 class="changingTextH4">
-                                Other Topics
-                            </h4>
-                            <p class="changingTextP">
-                                For all other events, we give clients the ability to report anything else that may be occurring.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    
-    </section>
-    
-    <!--<section id="spotlightSection">
-        <img src="/img/home/quotes.png" id="quotes"/>
-        <h2 class="sectionH2" id="spotlightH2">People are talking</h2>
-        <h3 class="sectionH3" id="spotlightH3">Kivvik in the Spotlight.</h3>
-        <div id="spotlightContainer">
-            <div class="spotlightCont">
-                <div class="spotlightContentContainer">
-                    <div class="spotlightHeaderImgCont">
-                        <img class="spotlightHeaderImg" src="/img/home/foxLogo.png"/>
-                    </div>
-                    
-                    <div class="quoteCont">
-                        <p>Here to help financial advisors eliminate the overhead associated with keeping up-to-date with their clients.</p>
-                    </div>
-                    
-                    <div class="quoterCont">
-                        <p class="quoteAuthor">Deborah Fox</p>
-                        <p class="quoteTitle">Founder, Fox Planning Network</p>
-                    </div>
-                </div>
-            </div>
-            <div class="spotlightCont">
-                <div class="spotlightContentContainer">
-                    <div class="spotlightHeaderImgCont">
-                        <img class="spotlightHeaderImg" src="/img/home/foxLogo.png"/>
-                    </div>
-                    
-                    <div class="quoteCont">
-                        <p>Here to help financial advisors eliminate the overhead associated with keeping up-to-date with their clients.</p>
-                    </div>
-                    
-                    <div class="quoterCont">
-                        <p class="quoteAuthor">Deborah Fox</p>
-                        <p class="quoteTitle">Founder, Fox Planning Network</p>
-                    </div>
-                
-                </div>
-            </div>
-            <div class="spotlightCont">
-                <div class="spotlightContentContainer">
-                    <div class="spotlightHeaderImgCont">
-                        <img class="spotlightHeaderImg" src="/img/home/foxLogo.png"/>
-                    </div>
-                    
-                    <div class="quoteCont">
-                        <p>Here to help financial advisors eliminate the overhead associated with keeping up-to-date with their clients.</p>
-                    </div>
-                    
-                    <div class="quoterCont">
-                        <p class="quoteAuthor">Deborah Fox</p>
-                        <p class="quoteTitle">Founder, Fox Planning Network</p>
-                    </div>
-                
-                </div>
-            </div>
-        </div>
-    </section>-->
-    
-    <section id="pricing">
-        <img id="updatesIcon" class="homeLittleIcon" src="/img/home/diamond.svg"/>
-        <h2 class="sectionH2" id="pricingh2">Simple pricing</h2>
-        <h3 class="sectionH3" id="pricingh3">All plans come with a 14-day free trial.</h3>
-        <p id="pricingsubHeading">No feature limitations. No contracts or surprise fees. No credit card necessary to get started.</p>
-        
-        <div id="pricingSelectContainer">
-            <div class="pricingContbig">
-                <div class="priceContSmall">
-                    <h5>
-                        Monthly
-                    </h5>
-                    <div class="priceCont">
-                       
-                        <p class="priceMainNumber"><sup class="dollarsign">$</sup>15<sup class="cents">.00</sup></p>
-                        
-                    </div>
-                    
-                    <div class="priceDisclosure">
-                        <p>Per advisor,<br> billed monthly.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="pricingContbig">
-                <div class="priceContSmall">
-                    <h5 class="pricingImportant">
-                        Quarterly
-                    </h5>
-                    <div class="priceCont">
-                        <p class="priceMainNumber"><sup class="dollarsign">$</sup>12<sup class="cents">.00</sup></p>
-                    </div>
-                    <div class="priceDisclosure">
-                        <p>Per advisor per month,<br> billed quarterly.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="pricingContbig">
-                <div class="priceContSmall">
-                    <h5>
-                        Annually
-                    </h5>
-                    <div class="priceCont">
-                        <p class="priceMainNumber"><sup class="dollarsign">$</sup>9<sup class="cents">.80</sup></p>
-                    </div>
-                    <div class="priceDisclosure">
-                        <p>Per advisor per month,<br> billed annually.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="pricingContbig">
-                <div class="priceContSmall">
-                    <h5>
-                        Enterprise
-                    </h5>
-                    <div class="priceCont">
-                       <p class="enterpriseContact">Contact Us</p>
-                    </div>
-                    <div class="priceDisclosure">
-                        <p>15 or more Advisors <br>per Firm. Group rate.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        
-        <h3 class="sectionH3" id="pricingh32">All plans come with a 14-day free trial.</h3>
-        <p id="noComitSignUp">No credit card required.</p>
-        <a href="https://wealthapp.kivvik.com/#!/auth/register">
-                    <div id="signUpBtnHomeTop" class="homeSignUpBtn">Try it for free</div>
-                </a>
-        <a href='#' onclick='overlay()'>
-            <div id="demobtn">Request a demo</div>
-        </a>
-        
-
-    </section>
-    
-    <section id="homeTourBtn">
-        <a href="/features.html"><div id="walkthroughbtnSection">
-            <h3 class="tourH3">Step by step guide</h3>
-            <h4 class="tourH4">The Walkthrough</h4>
-            <p class="tourP">Learn how Kivvik can deepen your client relationships.</p>
-        </div></a>
-        <a href="/guidedtour.html"><div id="videotourbtnSection">
-            <h3 class="tourH3">Visualize the experience</h3>
-            <h4 class="tourH4">Video Tours</h4>
-            <p class="tourP">Watch our tour videos to learn how Kivvik works.</p>
-        </div></a>
-    </section>
-    
-    
-    <footer>
-        <div class="footerWrapper">
-            <div class="footerCol">
-                <img id="kivvikLogoFooter" src="/img/global/kivvikLogo.png"/>
-            </div>
-            <div class="footerCol">
-                <div class="footerlinksCont">
-                    <a href="/features.html"><p>Product</p></a>
-                    <a href="/guidedtour.html"><p>Video Tours</p></a>
-                    <a href="/about.html"><p>About</p></a>
-                </div>
-            </div>
-            <div class="footerCol">
-                <div class="footerlinksCont">
-                    <a href="/index.html#pricing"><p>Pricing</p></a>
-                    <a href="mailto:hello@kivvik.com?subject=I have a question"><p>Support</p></a>
-                    <a href="#"><p>Jobs</p></a>
-                </div>
-            </div>
-            <div class="footerCol">
-                <div class="footerlinksCont">
-                    <a href="/compliance.html"><p>Compliance</p></a>
-                    <a href="/legal/privacy-policy.html"><p>Privacy</p></a>
-                    <a href="/legal/terms-of-use.html"><p>Terms of Use</p></a>
-                </div>
-            </div>
-            <div class="footerCol">
-                <div class="footerlinksCont">
-                    <a target="_blank" href="https://twitter.com/kivvikinc"><p>Twitter</p></a>
-                    <a target="_blank" href="https://www.linkedin.com/company/3612545?trk=tyahtrkInfo=tarId%3A1404943801376%2Ctas%3Akivvik%2Cidx%3A1-1-1"><p>LinkedIn</p></a>
-                    <a href="#"><p>Contact Us</p></a>
-                </div>
-            </div>
-        </div>
-    </footer>
-    
-<script>
-
-      window.sr = new scrollReveal();
-
-</script>
-    
-<script>
-    smoothScroll.init();
-</script>
-    
-    
-    <!-- Chatra Chat Integration-->    
-<script>
-  window.ChatraSetup = {
-    disabledOnMobile: true
-  };
-</script>
-    
-<script>
-    ChatraID = 'LmWBAQdvuMax4fYRX';
-    (function(d, w, c) {
-        var n = d.getElementsByTagName('script')[0],
-            s = d.createElement('script');
-        w[c] = w[c] || function() {
-            (w[c].q = w[c].q || []).push(arguments);
-        };
-        s.async = true;
-        s.src = (d.location.protocol === 'https:' ? 'https:': 'http:')
-            + '//chat.chatra.io/chatra.js';
-        n.parentNode.insertBefore(s, n);
-    })(document, window, 'Chatra');
-</script>
-<!-- End Chatra Chat Integration -->
-    
-    
-<!-- Start of Async HubSpot Analytics Code -->
-  <script type="text/javascript">
-    (function(d,s,i,r) {
-      if (d.getElementById(i)){return;}
-      var n=d.createElement(s),e=d.getElementsByTagName(s)[0];
-      n.id=i;n.src='//js.hs-analytics.net/analytics/'+(Math.ceil(new Date()/r)*r)+'/542755.js';
-      e.parentNode.insertBefore(n, e);
-    })(document,"script","hs-analytics",300000);
-  </script>
-<!-- End of Async HubSpot Analytics Code --> 
-    
-
-<div id="overlay">
-     <div>
-         <a href='#' onclick='overlay()'><img id="demoClose" src="/img/global/closeModal.svg"/></a>
-             <img id="demoEmailIco" src="/img/global/emailIcon.svg"/>
-             <h2 id="demoH2">Schedule a Demo</h2>
-             <h3 id="demoH3">Select how long you’d like to meet.</h3>
-             <a href="https://calendly.com/kivvik/15min"><p class="timePicker">15 Minutes</p></a>
-             <a href="https://calendly.com/kivvik/30min"><p class="timePicker">30 Minutes</p></a>
-     </div>
-</div>
-    
-    
-
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
+	</section>
     
     
     

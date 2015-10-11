@@ -19,7 +19,7 @@
             <div class="logo">
 				<img class="logoImg" src="/img/global/M-Logo.svg"/>
 			</div>
-            <div class="signUp"><a class="signUpBtnHeader" href="">Sign Up</a></div>
+            <div class="signUp"><a data-scroll class="signUpBtnHeader" href="#signUpSection">Sign Up</a></div>
         </div>
         <div id="homeHeroCont">
             <div id="heroTextContainer">
@@ -31,7 +31,7 @@
                 </h2>
 				
 				<div id="heroSignUpBtn">
-					<a href=""><p id="signUpBtn">Sign Up</p></a>
+					<a data-scroll href="#signUpSection"><p id="signUpBtn">Sign Up</p></a>
 				</div>
 				
 				
@@ -134,7 +134,11 @@
     
     
     
-    
+    <script src="/js/smooth-scroll.js"></script>
+	
+	<script>
+    smoothScroll.init();
+	</script>
     
 </body>
 </html>

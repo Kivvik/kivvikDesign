@@ -44,3 +44,19 @@ input, textarea, select, a {
     outline: none; 
     box-shadow: none;
 }
+
+.homeH2{
+	font-size: 32px;
+	font-weight: 300;
+	color: #364151;
+	line-height: 40px;
+	text-align: center;
+	padding-top: 60px;
+}
+
+.globalP{
+	color: #92969c;
+	font-size: 16px;
+	padding-bottom: 5px;
+	line-height: 28px;
+}

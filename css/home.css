@@ -70,11 +70,11 @@
 }
 
 #heroH2{
-    font-size: 20px;
+    font-size: 18px;
     line-height: 28px;
     font-weight: 400;
     color: #92969c;
-    padding-top: 40px;
+    padding-top: 30px;
 }
 
 #heroImgContainer{
@@ -128,6 +128,22 @@
 }
 
 
+#heroSignUpBtn{
+	padding: 10px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	background: #8272fa;
+	width: 120px;
+	text-align: center;
+	margin-top: 40px;
+	color: #fff;
+	text-transform: uppercase;
+	font-weight: 600;
+	border-radius: 2px;
+}
+
+
+
 @media(max-width: 700px){
     #heroTextContainer{
         width: 100%;
@@ -154,6 +170,16 @@
 	}
 	#heroH2{
 		text-align: center;
+	}
+	#heroSignUpBtn{
+		margin: 0px auto;
+		margin-top: 40px;
+	}
+	#heroImg{
+		max-width: 400px;
+		margin: 0px auto;
+		display: block;
+		float: none;
 	}
 }
 
@@ -239,6 +265,11 @@
 	float: right;
 }
 
+#revh2{
+	max-width: 500px;
+	margin: 0px auto;
+}
+
 @media(max-width: 700px){
 	#revTextContainer{
 		display: block;
@@ -261,14 +292,16 @@
 
 .revTextContent > h3{
 	color: #72c8fa;
-	font-size: 20px;
-	padding-bottom: 5px;
+	font-size: 22px;
+	padding-bottom: 15px;
+	font-weight: normal;
 }
 
 .revTextContent > p{
 	color: #92969c;
 	font-size: 14px;
 	padding-bottom: 5px;
+	line-height: 20px;
 }
 
 #revImg{
@@ -297,7 +330,78 @@
 }
 
 
+#searchSection{
+	background: #f8f9fb;
+	padding-top: 120px;
+}
 
+#searchsectioncontentwarpper{
+	width: 95%;
+	max-width: 1200px;
+	margin: 0px auto;
+	min-height: 500px;
+	height: auto;
+	padding-bottom: 40px;
+}
+
+#searchImgCont{
+	width: 45%;
+	display: inline-block;
+	float: left;
+	min-height: 300px;
+	height: auto;
+}
+
+
+#searchTextCont{
+	width: 55%;
+	display: inline-block;
+	float: left;
+	min-height: 300px;
+}
+
+#searchImg{
+	width: 90%;
+	max-width: 400px;
+	margin: 0px auto;
+	display: block;
+}
+
+#searchH2{
+	text-align: left;
+	padding-left: 2.5%;
+	padding-bottom: 15px;
+}
+
+#searchP{
+	padding-left: 2.5%;
+}
+
+@media(max-width:700px){
+	#searchsectioncontentwarpper{
+		min-height: 900px;
+	}
+	#searchImgCont{
+		width: 100%;
+		display: block;
+	}
+	#searchTextCont{
+		width: 100%;
+		display: block;
+	}
+	#searchP{
+		text-align: center;
+	}
+	#searchH2{
+		text-align: center;
+	}
+}
+
+
+
+#signUpSection{
+	background: #1d2029;
+}
 
 /*Global*/
 
@@ -305,16 +409,6 @@
 	display: none;
 }
 
-.homeH2{
-	font-size: 32px;
-	font-weight: 300;
-	color: #364151;
-	max-width: 500px;
-	line-height: 40px;
-	text-align: center;
-	margin: 0px auto;
-	padding-top: 60px;
-}
 
 
 

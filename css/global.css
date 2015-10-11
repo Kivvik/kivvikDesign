@@ -54,9 +54,17 @@ input, textarea, select, a {
 	padding-top: 60px;
 }
 
+.homeH3{
+	font-size: 28px;
+	font-weight: 300;
+	color: #364151;
+	line-height: 34px;
+	padding-top: 60px;
+}
+
 .globalP{
 	color: #92969c;
-	font-size: 16px;
+	font-size: 14px;
 	padding-bottom: 5px;
 	line-height: 28px;
 }

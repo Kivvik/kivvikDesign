@@ -353,6 +353,7 @@
 
 #searchP{
 	padding-left: 2.5%;
+	padding-right: 2.5%;
 }
 
 @media(max-width:700px){
@@ -383,13 +384,163 @@
 
 
 
+/*Project Section*/
+#projectSection{
+	padding-top: 60px;
+	padding-bottom: 60px;
+	background: #f0f3f6;
+	min-height: 400px;
+}
+
+#projectContainer{
+	width: 95%;
+	max-width: 1200px;
+	display: block;
+	margin: 0px auto;
+}
+
+#projectTextContainer{
+	width: 50%;
+	display: inline-block;
+	float: left;
+}
+
+#projectImageContainer{
+	width: 50%;
+	display: inline-block;
+	float: left;
+}
+
+#projectH3{
+	padding-left: 2.5%;
+	padding-bottom: 15px;
+	padding-right: 2.5%;
+}
+
+#projectImg{
+	width: 95%;
+	margin: 0px auto;
+	display: block;
+	padding-top: 30px;
+}
+
+@media(max-width:700px){
+	#projectContainer{
+		min-height: 700px;
+	}
+	#projectTextContainer{
+		width: 100%;
+		display: block;
+	}
+	#projectImageContainer{
+		width: 100%;
+		display: block;
+	}
+	#searchP{
+		text-align: center;
+	}
+	#projectH3{
+		text-align: center;
+	}
+	
+}
+
+@media(max-width: 1024px){
+	#projectImg{
+		padding-top: 50px;
+	}
+}
+
+/*CollaborationSection*/
+#collaborationSection{
+	padding-top: 60px;
+	padding-bottom: 60px;
+	min-height: 400px;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#445aa0+0,428ab8+100 */
+background: rgb(68,90,160); /* Old browsers */
+background: -moz-linear-gradient(-45deg,  rgba(68,90,160,1) 0%, rgba(66,138,184,1) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,rgba(68,90,160,1)), color-stop(100%,rgba(66,138,184,1))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(-45deg,  rgba(68,90,160,1) 0%,rgba(66,138,184,1) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(-45deg,  rgba(68,90,160,1) 0%,rgba(66,138,184,1) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(-45deg,  rgba(68,90,160,1) 0%,rgba(66,138,184,1) 100%); /* IE10+ */
+background: linear-gradient(135deg,  rgba(68,90,160,1) 0%,rgba(66,138,184,1) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#445aa0', endColorstr='#428ab8',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+}
+
+#collaborationContainer{
+	width: 95%;
+	max-width: 1200px;
+	display: block;
+	margin: 0px auto;
+}
+
+#collaborationTextContainer{
+	width: 50%;
+	display: inline-block;
+	float: left;
+}
+
+#collaborationImageContainer{
+	width: 50%;
+	display: inline-block;
+	float: left;
+}
+
+#collabH3{
+	padding-left: 2.5%;
+	padding-bottom: 15px;
+	padding-right: 2.5%;
+	color: #fff;
+}
+
+#collabP{
+	padding-left: 2.5%;
+	padding-right: 2.5%;
+	color: #d7e3f0;
+}
+
+#collabImg{
+	width: 80%;
+	margin: 0px auto;
+	display: block;
+	padding-top: 30px;
+	max-width: 400px;
+}
+
+@media(max-width:700px){
+	#collaborationContainer{
+		min-height: 700px;
+	}
+	#collaborationTextContainer{
+		width: 100%;
+		display: block;
+	}
+	#collaborationImageContainer{
+		width: 100%;
+		display: block;
+	}
+	#searchP{
+		text-align: center;
+	}
+	#collabP{
+		text-align: center;
+	}
+	
+}
+
+@media(max-width: 1024px){
+	#projectImg{
+		padding-top: 50px;
+	}
+}
 
 /*Sign Up*/
 
 #signUpSection{
 	background: #1d2029;
-	padding-top: 40px;
-	padding-bottom: 40px;
+	padding-top: 60px;
+	padding-bottom: 120px;
 }
 
 #signUpSectionH2{
@@ -400,7 +551,7 @@
 }
 
 #signUpFormContainer{
-	padding-top: 50px;
+	padding-top: 20px;
 	margin: 0px auto;
 	display: block;
 	position: relative;

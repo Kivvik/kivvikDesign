@@ -40,18 +40,29 @@ a:visited{
     text-decoration: none;
 }
 
+a:focus{
+    outline:none;
+}
+
+input {
+    -webkit-appearance: none;
+    border-radius: 0;
+}
+
 input, textarea, select, a { 
     outline: none; 
     box-shadow: none;
 }
 
-.homeH2{
-	font-size: 32px;
-	font-weight: 300;
-	color: #364151;
-	line-height: 40px;
+.globalH2{
+	font-size: 20px;
+	font-weight: 700;
+	color: #fff;
+	line-height: 30px;
 	text-align: center;
 	padding-top: 60px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
 }
 
 .homeH3{

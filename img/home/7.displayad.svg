@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid" width="300" height="187" viewBox="0 0 300 187">
+  <defs>
+    <style>
+      .cls-1, .cls-3 {
+        fill: #2b2c2e;
+      }
+
+      .cls-2, .cls-4 {
+        fill: #555658;
+      }
+
+      .cls-2 {
+        opacity: 0.45;
+      }
+
+      .cls-3 {
+        stroke: #fff;
+        stroke-width: 2px;
+      }
+
+      .cls-3, .cls-4, .cls-5 {
+        fill-rule: evenodd;
+      }
+
+      .cls-5 {
+        fill: #4777db;
+      }
+    </style>
+  </defs>
+  <g>
+    <rect width="300" height="187" class="cls-1"/>
+    <g>
+      <rect x="104" y="77" width="16" height="16" rx="4" ry="4" class="cls-2"/>
+      <rect x="104" y="95" width="16" height="16" rx="4" ry="4" class="cls-2"/>
+      <rect x="86" y="77" width="16" height="16" rx="4" ry="4" class="cls-2"/>
+      <rect x="120" y="59" width="16" height="16" rx="4" ry="4" class="cls-2"/>
+      <rect x="120" y="77" width="16" height="16" rx="4" ry="4" class="cls-2"/>
+      <rect x="186" y="109" width="16" height="16" rx="4" ry="4" class="cls-2"/>
+      <rect x="186" y="79" width="16" height="16" rx="4" ry="4" class="cls-2"/>
+      <rect x="169" y="93" width="16" height="16" rx="4" ry="4" class="cls-2"/>
+      <rect x="157" y="111" width="16" height="16" rx="4" ry="4" class="cls-2"/>
+      <rect x="154" y="40" width="16" height="16" rx="4" ry="4" class="cls-2"/>
+      <rect x="139" y="129" width="16" height="16" rx="4" ry="4" class="cls-2"/>
+      <rect x="139" y="111" width="16" height="16" rx="4" ry="4" class="cls-2"/>
+      <rect x="121" y="111" width="16" height="16" rx="4" ry="4" class="cls-2"/>
+      <rect x="168" y="56" width="16" height="16" rx="4" ry="4" class="cls-2"/>
+      <rect x="139" y="93" width="16" height="16" rx="4" ry="4" class="cls-2"/>
+      <rect x="121" y="93" width="16" height="16" rx="4" ry="4" class="cls-2"/>
+      <rect x="157" y="93" width="16" height="16" rx="4" ry="4" class="cls-2"/>
+      <rect x="137" y="59" width="16" height="16" rx="4" ry="4" class="cls-2"/>
+    </g>
+    <g>
+      <path d="M144.650,107.550 L148.250,123.750 C148.250,125.241 147.041,126.450 145.550,126.450 L141.950,126.450 C140.459,126.450 139.250,125.241 139.250,123.750 L132.950,107.550 C124.997,107.550 117.650,101.250 117.650,91.350 C117.650,81.450 124.997,75.150 132.950,75.150 L154.550,75.150 L154.550,107.550 L144.650,107.550 Z" class="cls-3"/>
+      <path d="M170.450,119.150 L149.750,107.225 L149.750,73.475 L170.450,61.550 C171.941,61.550 173.150,62.759 173.150,64.250 L173.150,116.450 C173.150,117.941 171.941,119.150 170.450,119.150 Z" class="cls-4"/>
+      <path d="M173.150,97.550 L173.150,83.150 C177.127,83.150 180.350,86.374 180.350,90.350 C180.350,94.327 177.127,97.550 173.150,97.550 Z" class="cls-5"/>
+    </g>
+  </g>
+</svg>

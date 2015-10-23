@@ -125,7 +125,7 @@
     color: #1d2029;
     font-weight: 700;
     padding-top: 15px;
-    padding-bottom: 5px;
+    padding-bottom: px;
 }
 
 .hS2H3{
@@ -138,7 +138,7 @@
 }
 
 .hS2P{
-    font-size: 11px;
+    font-size: 12px;
     letter-spacing: 0.6px;
     color: #f0f3f6;
     font-weight: 400;
@@ -180,7 +180,7 @@
 
 
 .projectSepLabels{
-    font-size: 16px;
+    font-size: 18px;
     padding-bottom: 40px;
     text-transform: uppercase;
     color: #626469;
@@ -216,7 +216,7 @@
 }
 
 .hS3H4{
-    font-size: 11px;
+    font-size: 15px;
     text-transform: uppercase;
     letter-spacing: 0.6px;
     color: #4777db;
@@ -227,7 +227,7 @@
 }
 
 .hS3P{
-    font-size: 11px;
+    font-size: 13px;
     letter-spacing: 0.6px;
     color: #f0f3f6;
     font-weight: 400;

@@ -488,6 +488,127 @@ float: right;
     min-height: 500px;
 }
 
+#Inputname{
+    width: 48%;
+    display: inline-block;
+    float: left;
+    height: 60px;
+    margin-bottom: 15px;
+}
+
+#InputEmail{
+    width: 48%;
+    display: inline-block;
+    float: right;
+    height: 60px;
+    margin-bottom: 15px;
+}
+
+#fieldName{
+    width: 100%;
+    padding-left: 10px;
+    height: 40px;
+    float: left;
+}
+
+#fieldEmail{
+    width: 100%;
+    padding-left: 10px;
+    height: 40px;
+}
+
+#InputPhone{
+    width: 48%;
+    display: inline-block;
+    float: left;
+    height: 60px;
+    margin-bottom: 15px;
+}
+
+#fieldtukitl{
+    width: 100%;
+    padding-left: 10px;
+    height: 40px;
+    float: left;
+}
+
+#InputTime{
+    width: 48%;
+    display: inline-block;
+    float: right;
+    height: 60px;
+    margin-bottom: 15px;
+}
+
+#fieldtukihl{
+    width: 100%;
+    padding-left: 10px;
+    height: 40px;
+}
+
+#inputHelp{
+    width: 100%;
+    min-height: 200px;
+}
+
+#fieldtukihr{
+    width: 100%;
+    min-height: 150px;
+    padding-top: 10px;
+    padding-left: 10px;
+    border: 0;
+}
+
+#inputFrequency{
+    width: 100%;
+    height: 40px;
+    display: none;
+}
+
+#fieldtukiud{
+    width: 100%;
+    height: 40px;
+}
+
+.inputBox{
+    background-color: #2b2c2e;
+    color: #fff;
+    font-size: 14px;
+}
+
+label{
+    color: #fff;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 13px;
+}
+
+#submit{
+    text-align: center;
+    margin: 0px auto;
+    padding: 15px;
+    padding-top: 17px;
+    border-radius: 40px;
+    background: #fff;
+    border: none;
+    margin: 0px auto;
+    display: block;
+    position: relative;
+    font-size: 12px;
+    text-transform: uppercase;
+    margin-top: 40px;
+    width: 120px;
+    font-weight: 700;
+    letter-spacing: .25px;
+    color: #252525;
+}
+
+placeholder {
+   color: #4f4f51;
+    font-size: 14px;
+}
+
+
 #gitsP{
     max-width: 600px;
     margin: 0px auto;
@@ -498,6 +619,28 @@ float: right;
 }
 
 
+@media(max-width: 700px){
+    #Inputname{
+        width: 100%;
+        display: block;
+    }
+    #InputEmail{
+        width: 100%;
+        display: block;
+    }
+    #InputPhone{
+        width: 100%;
+        display: block;
+    }
+    #InputTime{
+        width: 100%;
+        display: block;
+    }
+    #Inputname{
+        width: 100%;
+        display: block;
+    }
+}
 
 
 

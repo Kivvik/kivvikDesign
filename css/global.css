@@ -73,6 +73,20 @@ a:focus{
     outline:none;
 }
 
+a{
+    text-decoration: none;
+    outline: none !important;
+} 
+
+a:focus{
+    outline:none;
+}
+
+input {
+    -webkit-appearance: none;
+    border: none;
+}
+
 input {
     -webkit-appearance: none;
     border-radius: 0;

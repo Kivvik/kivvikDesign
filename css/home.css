@@ -159,7 +159,7 @@
     background: #303236;
     width: 100%;
     z-index: 1;
-    min-height: 1150px;
+    min-height: 1650px;
     position: relative;
     display: block;
     margin: 0px auto;
@@ -175,8 +175,9 @@
     padding-bottom: 40px;
     height: auto;
     position: relative;
-    min-height: 600x;
+    min-height: 700px;
 }
+
 
 .projectSepLabels{
     font-size: 16px;
@@ -283,7 +284,7 @@ float: right;
 
 @media(max-width: 700px){
     #chooseProject{
-        min-height: 1800px;
+        min-height: 2300px;
     }
     .homeS3ItemCont{
         width: calc(100% / 2);

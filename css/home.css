@@ -176,7 +176,7 @@
     padding-bottom: 40px;
     height: auto;
     position: relative;
-    min-height: 800px;
+    min-height: 450px;
 }
 
 
@@ -207,7 +207,7 @@
     width: 86%;
     min-height: 240px;
     margin: 0px auto;
-    height: 360px;
+    height: 380px;
     background: #2b2c2e;
     position: relative;
 }
@@ -294,8 +294,11 @@ float: right;
 }
 
 @media(max-width: 700px){
+    #chooseProjectContainers{
+        min-height: 900px;
+    }
     #chooseProject{
-        min-height: 2300px;
+        min-height: 3500px;
     }
     .homeS3ItemCont{
         width: calc(100% / 2);
@@ -306,6 +309,9 @@ float: right;
 }
 
 @media(max-width: 500px){
+    #chooseProject{
+        min-height: 3800px;
+    }
     .homeS3ItemCont{
         width: 90%;
         max-width: 300px;

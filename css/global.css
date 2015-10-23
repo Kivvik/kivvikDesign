@@ -16,6 +16,8 @@ html{
   src: local('Promima Nova'), url('/fonts/ProximaNova-Regular.otf') format('opentype');
 }
 
+
+
 @font-face {
   font-family: 'Promima Nova';
   font-style: 700;
@@ -82,7 +84,7 @@ input, textarea, select, a {
 }
 
 .globalH2{
-	font-size: 20px;
+	font-size: 22px;
 	font-weight: 700;
 	color: #fff;
 	line-height: 30px;
@@ -106,3 +108,74 @@ input, textarea, select, a {
 	padding-bottom: 5px;
 	line-height: 28px;
 }
+
+.header{
+    position: fixed;
+    width: 100%;
+    z-index: 1
+}
+
+.headerContainer{
+    width: 95%;
+    position: relative;
+    margin: 0px auto;
+    min-height: 50px;
+}
+
+.logo{
+    padding-top: 15px;
+    width: 60px;
+    display: inline-block;
+    float: left;
+    padding-top: 20px;
+}
+
+.logo img{
+    width: 55px;
+}
+
+.headerLinks{
+    display: inline-block;
+    float: right;
+}
+
+.headerLink{
+    display: inline-block;
+    float: right;
+    padding-left: 30px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 700;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    font-size: 12px;
+    letter-spacing: .25px;
+    opacity: 0.8;
+}
+
+.headerLink:hover{
+    opacity: 1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

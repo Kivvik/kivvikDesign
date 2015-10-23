@@ -8,20 +8,31 @@
         <link type="image/x-icon" href="" rel="SHORTCUT ICON">
         <link href="/css/global.css" rel="stylesheet" type="text/css">
         <link href="/css/home.css" rel="stylesheet" type="text/css"> 
-        <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'>
         <script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
         
 </head>
 <body id="designHome">
+        <div class="header">
+            <div class="headerContainer">
+                <div class="logo">
+                    <img id="logoImg" src="/img/global/BirdIcon-White.svg"/>
+                </div>
+                <div class="headerLinks">
+                    <a href="#"><div class="headerLink">Get Started</div></a>
+                    <a href="#"><div class="headerLink">Get In Touch</div></a>
+                </div>
+            </div>
+        </div>
     <section id="designHero">
+        
         <div id="designHeroCont">
             <div id="designHeroContentDiv">
-                <h1>Beautiful Design,<br>For All.</h1>
+                <h1>Design on demand.<br>None of the ambiguity.</h1>
                 <div class="heroStartBtn">
                     <a data-scroll href="#chooseProject">Start A Project</a>
                 </div>
                 <p>
-                    Kivvik is your on demand design team. Start a project in minutes, get designs in hours. Feedback and project management is effortlessly handled through our online interface.
+                    SwiftGeeks is your on demand design team. Start a project in minutes, get designs in hours. Feedback and project management is effortlessly handled through an online interface.
                 </p>
             </div>
         </div>
@@ -61,6 +72,55 @@
                 </div>
             </div>
         </div>
+    </section>
+    
+    <section id="theExperienceSection">
+        <h2 class="globalH2">The Experience</h2>
+        <div id="theExperienceContainer">
+            <div id="seamlessSection">
+                <div id="seamlessSectionLeft">
+                    <h3 id="theExperienceH3"><span>Seemless</span><br>Design communication.</h3>
+                    <p id="theExperienceP">Simplifying your feedback process by having clients, team members, and stakeholders comment directly on your designs. See new feedback for all your projects in one convenient place, or drill down by active project, specific people, or your own name.</p>
+                    <div class="expinternalheader">
+                        <img id="exihImg" src="/img/home/conFeed.svg"/>
+                        <h4>Contextual Feedback</h4>
+                    </div>
+                    <p id="theExperienceP2">Give feedback more context by commenting directly on a design from within the prototype experience.</p>
+                    
+                    <div class="expinternalheader">
+                        <img id="exihImg" src="/img/home/chat.svg"/>
+                        <h4>Threaded Conversations</h4>
+                    </div>
+                    <p id="theExperienceP2">Give feedback more context by commenting directly on a design from within the prototype experience.</p>
+                </div>
+                <div id="seamlessSectionRight">
+                    <img id="ssrrImg" src="/img/home/theExperienceImg1.png" />
+                </div>
+            </div>
+            
+            <div id="agileSection">
+                <div id="agileSectionleft">
+                    <img id="aSLImg" src="/img/home/agileImg.png" />
+                </div>
+                
+                <div id="agileSectionRight">
+                    <h3 id="theAgileH3">
+                        <span>Agile project management</span><br>for faster delivery.
+                    </h3>
+                    <p id="theExperienceP">Manage your project screens and statuses from one single location, quickly see unread comments, preview screens, and notify team members when changes to screen status are made.</p>
+                <div class="expinternalheader">
+                        <img id="exihImg" src="/img/home/Clock.svg"/>
+                        <h4>Speedy delivery</h4>
+                    </div>
+                    <p id="theExperienceP2">is quicker than any design agency you have experienced. Start a project in minutes. First version back in as little as 12 hours. Complete the whole project in a few days or weeks. </p>
+                </div>
+            
+            </div>
+            
+            
+            
+        </div>
+    
     </section>
     
     <section id="happyClients">
@@ -116,24 +176,12 @@
                 Select a <span>Premium Project</span>
             </h2>
             
-            <div class="homeS3ItemCont">
-                <div class="homeS3Item">
-                    <img class="homeS3Img" src="/img/home/1.Presentation.svg"/>
-                    <h4 class="hS3H4">Presentations</h4>
-                    <p class="hS3P">
-                        Do you have a pitch deck due for an investor presentation? Or a report you need for a meeting? Let us help you boost the quality of your displayed data.
-                    </p>
-                    <div class="projFooterLinks">
-                        <div class="projFtLkSN"><a href="">Start Now!</a></div>
-                        <div class="projFtLkSL"><a href="">Start Later</a></div>
-                    </div>
-                </div>
-            </div>
             
             <div class="homeS3ItemCont">
                 <div class="homeS3Item">
                     <img class="homeS3Img" src="/img/home/2.landingpage.svg"/>
                     <h4 class="hS3H4">Single or Multi-Page Site</h4>
+                    <h5 class="hS3H5">Starting at $400</h5>
                     <p class="hS3P">
                        We’ll create a beautiful website for your company or redesign an existing site to captivate your target audiance.
                     </p>
@@ -148,6 +196,7 @@
                 <div class="homeS3Item">
                     <img class="homeS3Img" src="/img/home/3.app.svg"/>
                     <h4 class="hS3H4">Web & Mobile App Design</h4>
+                    <h5 class="hS3H5">Starting at $400</h5>
                     <p class="hS3P">
                         We can define a creative direction for your product - styles, colors, and general feel based on key pieces. We'll consistently apply that approved direction across the entire project.
                     </p>
@@ -162,6 +211,7 @@
                 <div class="homeS3Item">
                     <img class="homeS3Img" src="/img/home/4.branding.png"/>
                     <h4 class="hS3H4">Branding, Icons & Logo Package</h4>
+                    <h5 class="hS3H5">Starting at $400</h5>
                     <p class="hS3P">
                         We’ll create a beautiful website for your company or redesign an existing site to captivate your target audiance.
                     </p>
@@ -178,26 +228,29 @@
                     <h2 class="projectSepLabels">
                         Select a <span>Standard Project</span>
                     </h2>
-
+            
             
             <div class="homeS3ItemCont">
                 <div class="homeS3Item">
-                    <img class="homeS3Img" src="/img/home/5.bcards.svg"/>
-                    <h4 class="hS3H4">Business Cards</h4>
+                    <img class="homeS3Img" src="/img/home/1.Presentation.svg"/>
+                    <h4 class="hS3H4">Presentations</h4>
+                    <h5 class="hS3H5">Starting at $400</h5>
                     <p class="hS3P">
-                        We’ll create a beautiful website for your company or redesign an existing site to captivate your target audiance.
+                        Do you have a pitch deck due for an investor presentation? Or a report you need for a meeting? Let us help you boost the quality of your displayed data.
                     </p>
-                     <div class="projFooterLinks">
+                    <div class="projFooterLinks">
                         <div class="projFtLkSN"><a href="">Start Now!</a></div>
                         <div class="projFtLkSL"><a href="">Start Later</a></div>
                     </div>
                 </div>
             </div>
             
+            
             <div class="homeS3ItemCont">
                 <div class="homeS3Item">
                     <img class="homeS3Img" src="/img/home/6.emails.svg"/>
                     <h4 class="hS3H4">Emails</h4>
+                    <h5 class="hS3H5">Starting at $400</h5>
                     <p class="hS3P">
                         Do you have a pitch deck due for an investor presentation? Or a report you need for a meeting? Let us help you boost the quality of your displayed data.
                     </p>
@@ -213,6 +266,7 @@
                 <div class="homeS3Item">
                     <img class="homeS3Img" src="/img/home/7.displayad.svg"/>
                     <h4 class="hS3H4">Online or Display Ads</h4>
+                    <h5 class="hS3H5">Starting at $400</h5>
                     <p class="hS3P">
                         Do you have a pitch deck due for an investor presentation? Or a report you need for a meeting? Let us help you boost the quality of your displayed data.
                     </p>
@@ -227,6 +281,7 @@
                 <div class="homeS3Item">
                     <img class="homeS3Img" src="/img/home/8.ebooks.svg"/>
                     <h4 class="hS3H4">Reports, & Whitepapers</h4>
+                    <h5 class="hS3H5">Starting at $400</h5>
                     <p class="hS3P">
                         Do you have a pitch deck due for an investor presentation? Or a report you need for a meeting? Let us help you boost the quality of your displayed data.
                     </p>
@@ -239,8 +294,9 @@
             
             <div class="homeS3ItemCont">
                 <div class="homeS3Item">
-                    <img class="homeS3Img" src="/img/home/8.ebooks.svg"/>
-                    <h4 class="hS3H4">eBooks</h4>
+                    <img class="homeS3Img" src="/img/home/icons.png"/>
+                    <h4 class="hS3H4">icons</h4>
+                    <h5 class="hS3H5">Starting at $400</h5>
                     <p class="hS3P">
                         Do you have a pitch deck due for an investor presentation? Or a report you need for a meeting? Let us help you boost the quality of your displayed data.
                     </p>
@@ -251,11 +307,56 @@
                 </div>
             </div>
             
+            <div class="homeS3ItemCont">
+                <div class="homeS3Item">
+                    <img class="homeS3Img" src="/img/home/logo.png"/>
+                    <h4 class="hS3H4">Logos</h4>
+                    <h5 class="hS3H5">Starting at $400</h5>
+                    <p class="hS3P">
+                        Do you have a pitch deck due for an investor presentation? Or a report you need for a meeting? Let us help you boost the quality of your displayed data.
+                    </p>
+                     <div class="projFooterLinks">
+                        <div class="projFtLkSN"><a href="">Start Now!</a></div>
+                        <div class="projFtLkSL"><a href="">Start Later</a></div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="homeS3ItemCont">
+                <div class="homeS3Item">
+                    <img class="homeS3Img" src="/img/home/ebook.png"/>
+                    <h4 class="hS3H4">eBooks</h4>
+                    <h5 class="hS3H5">Starting at $400</h5>
+                    <p class="hS3P">
+                        Do you have a pitch deck due for an investor presentation? Or a report you need for a meeting? Let us help you boost the quality of your displayed data.
+                    </p>
+                     <div class="projFooterLinks">
+                        <div class="projFtLkSN"><a href="">Start Now!</a></div>
+                        <div class="projFtLkSL"><a href="">Start Later</a></div>
+                    </div>
+                </div>
+            </div>
+            
+             <div class="homeS3ItemCont">
+                <div class="homeS3Item">
+                    <img class="homeS3Img" src="/img/home/5.bcards.svg"/>
+                    <h4 class="hS3H4">Business Cards</h4>
+                    <h5 class="hS3H5">Starting at $400</h5>
+                    <p class="hS3P">
+                        We’ll create a beautiful website for your company or redesign an existing site to captivate your target audiance.
+                    </p>
+                     <div class="projFooterLinks">
+                        <div class="projFtLkSN"><a href="">Start Now!</a></div>
+                        <div class="projFtLkSL"><a href="">Start Later</a></div>
+                    </div>
+                </div>
+            </div>
             
             <div class="homeS3ItemCont">
                 <div class="homeS3Item">
                     <img class="homeS3Img" src="/img/home/9.one-page.svg"/>
                     <h4 class="hS3H4">One-Pagers, Flyers, & Posters</h4>
+                    <h5 class="hS3H5">Starting at $400</h5>
                     <p class="hS3P">
                         Do you have a pitch deck due for an investor presentation? Or a report you need for a meeting? Let us help you boost the quality of your displayed data.
                     </p>
@@ -268,7 +369,23 @@
             </div>
         </div>
     </section>
+
+    <section id="pricingSection">
+        <h2 class="globalH2 darkText">Discount Plans & Pricing</h2>
+        <div id="pricingSectionContainers">
+            
+            
+        </div>
+    </section>
     
+    <section id="getintouchSection">
+        <h2 class="globalH2">Get in touch</h2>
+        <p id="gitsP">With a 30 minute phone call, we can easily get your team setup. We can walk you through the process as well as answer any questions you may have.</p>
+        <div id="getintouchContainer">
+            
+            
+        </div>
+    </section>
     
     <footer>
     

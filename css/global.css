@@ -16,6 +16,13 @@ html{
   src: local('Promima Nova'), url('/fonts/ProximaNova-Regular.otf') format('opentype');
 }
 
+@font-face {
+  font-family: 'Promima Nova';
+  font-style: 500;
+  font-weight: 500;
+  src: local('Promima Nova'), url('/fonts/ProximaNova-Semibold.otf') format('opentype');
+}
+
 
 
 @font-face {
@@ -170,6 +177,134 @@ input, textarea, select, a {
 .headerLink:hover{
     opacity: 1;
 }
+
+
+
+
+footer{
+    width: 100%;
+    min-height: 440px;
+    background: rgb(48, 50, 54);
+    z-index: 10;
+    position: relative;
+    height: auto;
+}
+
+#footerContainer{
+    width: 90%;
+    max-width: 1000px;
+    margin: 0px auto;
+    display: block;
+    min-height: 200px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    position: relative;
+    height: auto;
+}
+
+#footerLogoDiv{
+    
+}
+
+.footerCol{
+    width: calc(100% / 4);
+    display: inline-block;
+    float: left;
+    position: relative;
+    max-height: 300px;
+    padding-bottom: 30px;
+}
+
+.footerInternalCol{
+    width: 90%;
+    display: block;
+    position: relative;
+    height: auto;
+}
+
+#footerLogoDiv{
+    width: 90%;
+    margin: 0px auto;
+    max-width: 250px;
+    display: block;
+    position: relative;
+}
+
+#footerlogo{
+    width: 100%;
+    max-width: 100px;
+    margin: 0px auto;
+    display: block;
+    position: relative;
+}
+
+.footerH3{
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 12px;
+    letter-spacing: .25px;
+    margin-bottom: 20px;
+}
+
+.footerInternalCol p{
+    font-size: 13px;
+    font-weight:400;
+    margin-bottom: 10px;
+    color: #fff;
+}
+
+.footerInternalCol p a{
+    color: #92969c;
+}
+
+.footerInternalCol p a:hover{
+    color: #fff;
+}
+
+.footerLegalHeader{
+    padding-top: 20px;
+}
+
+@media(max-width: 700px){
+    .footerCol{
+        width: calc(100% / 2);
+        margin-bottom: 40px;
+    }
+    footer{
+        min-height: 800px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

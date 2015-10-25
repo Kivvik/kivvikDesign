@@ -1,0 +1,85 @@
+#GetInTouchThankYou{
+    background: rgb(48, 50, 54);
+}
+
+
+
+#GetInTouchThankYouContainer{
+    width: 90%;
+    height: 90%;
+    display: block;
+    margin: 0px auto;
+    top: 5%;
+    position: relative;
+}
+
+#thankyoulogo{
+    width: 100%;
+    max-width: 600px;
+    display: block;
+    height: 35%;
+    max-height: 300px;
+    margin: 0px auto;
+    position: relative;
+}
+
+#thankyouLogoImg{
+
+    max-width: 200px;
+    height: 100%;
+    margin: 0px auto;
+    display: block;
+}
+
+#thankyouname{
+    width: 100%;
+    max-width: 1000px;
+    height: 20%;
+    margin: 0px auto;
+}
+
+#creativeContactDiv{
+    width: 100%;
+    max-width: 600px;
+    height: 40%;
+    margin: 0px auto;
+}
+
+#thankyouname h1{
+    text-align: center;
+    padding-top: 5%;
+    text-transform: uppercase;
+}
+
+#creativeContactDiv p{
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 45px;
+    letter-spacing: 2px;
+    padding-top: 10%;
+    color: #92969c;
+}
+
+#backToHome{
+    margin: 0px auto;
+    width: 180px;
+    margin-top: 15%;
+}
+
+#backToHome a{
+    padding-top: 13px;
+    padding-bottom: 12px;
+    border-radius: 50px;
+    border: 1px solid rgba(255,255,255,0.8);
+    color: #252525;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 700;
+    width: 100%;
+    margin: 0px auto;
+    display: block;
+    text-align: center;
+    background: #fff;
+}

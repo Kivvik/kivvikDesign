@@ -48,7 +48,7 @@
 .heroStartBtn{
     max-width: 170px;
     margin: 0px auto;
-    margin-top: 50px;
+    margin-top: 70px;
 }
 
 .heroStartBtn a{
@@ -78,7 +78,7 @@
     color: #fff;
     max-width: 600px;
     margin: 0px auto;
-    padding-top: 40px;
+    padding-top: 70px;
 }
 
 #homeHowItWorksSection{
@@ -599,7 +599,7 @@ label{
     margin-top: 40px;
     width: 120px;
     font-weight: 700;
-    letter-spacing: .25px;
+    letter-spacing: 1px;
     color: #252525;
 }
 
@@ -642,6 +642,23 @@ placeholder {
     }
 }
 
+#startnowbtn{
+    text-align: center;
+    margin-top: 50px;
+    text-decoration: underline;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: 700;
+    opacity: 0.8;
+}
+
+#startnowbtn{
+    opacity: 1;
+}
+
+#startnowbtn a{
+    color: #f0f3f6;
+}
 
 
 #theExperienceSection{

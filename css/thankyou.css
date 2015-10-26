@@ -36,6 +36,11 @@
     max-width: 1000px;
     height: 20%;
     margin: 0px auto;
+    padding-top: 5%;
+}
+
+#thankyouname img{
+   width: 100%; 
 }
 
 #creativeContactDiv{
@@ -45,11 +50,7 @@
     margin: 0px auto;
 }
 
-#thankyouname h1{
-    text-align: center;
-    padding-top: 5%;
-    text-transform: uppercase;
-}
+
 
 #creativeContactDiv p{
     text-align: center;

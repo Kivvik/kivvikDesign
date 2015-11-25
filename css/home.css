@@ -62,7 +62,10 @@
     #desktopHeader{
         display: none;
     }
-    #mobileHeader{
+    .mobilenav{
+        display: block;
+    }
+    .icon{
         display: block;
     }
 }
@@ -71,7 +74,10 @@
     #desktopHeader{
         display: block;
     }
-    #mobileHeader{
+    .mobilenav{
+        display: none;
+    }
+    .icon{
         display: none;
     }
 }
@@ -790,6 +796,7 @@
     height: auto;
     min-height: 500px;
     padding-top: 80px;
+    overflow-y: auto;
 }
 
 #questionContainer{
@@ -797,6 +804,7 @@
     width: 100%;
     position: relative;
     padding-top: 50px;
+    margin: 0px auto;
 }
 
 .questionItem{
@@ -804,7 +812,6 @@
     float: left;
     display: inline-block;
     height: 300px;
-    background: blue;
 }
 
 .qInside{
@@ -812,7 +819,6 @@
     margin: 0px auto;
     height: 280px;
     margin-top: 10px;
-    background: #fff;
     position: relative;
 }
 
@@ -951,9 +957,130 @@
 }
 
 
+#exhibitionHall{
+     width: 100%;
+    height: auto;
+    min-height: 500px;
+    padding-top: 80px;
+}
 
+#exhibitionHeader{
+    width: 100%;
+    background: #c1c8d0;
+}
 
+#exhibitionHeader h2{
+    padding-top: 60px;
+    padding-bottom: 60px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 24px;
+    color: #fff;
+}
 
+#exhibitHallBg{
+    width: 100%;
+    position: relative;
+    height: 700px;
+    display: block;
+    background-image: url(/img/home/exhibitHallbg.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: 50% 50%;
+}
+
+#exhibitHallContent{
+    max-width: 600px;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    margin: 0px auto;
+}
+
+#exhibitHallContent h3{
+    font-weight: 400;
+    font-size: 2em;
+    text-transform: uppercase;
+    color: #fff;
+    padding-bottom: 10px;
+}
+
+#exhibitHallContent h5{
+    color: #fff;
+    font-size: 1em;
+}
+
+#exhbitItems{
+    width: 100%;
+    display: block;
+    margin: 0px auto;
+    height: auto;
+}
+
+.exhibitItem{
+    width: calc(100% / 4);
+    display: inline-block;
+    float: left;
+    height: 300px;
+    position: relative;
+}
+
+.exhibitItem h3{
+    top: 50%;
+    transform: translateY(-50%);
+    position: relative;
+    color: #fff;
+    padding-left: 5%;
+    font-weight: 900;
+}
+
+#exhbitItem1{
+    background-image: url(/img/home/exhibit1.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: 50% 50%;
+}
+
+#exhbitItem2{
+    background-image: url(/img/home/exhibit2.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: 50% 50%;
+}
+
+#exhbitItem3{
+    background-image: url(/img/home/exhibit3.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: 50% 50%;
+}
+
+#exhbitItem4{
+    background-image: url(/img/home/exhibit4.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: 50% 50%;
+}
+
+@media(max-width:500px){
+    #exhibitionHall{
+        padding-top: 0;
+    }
+    
+    #exhibitionHeader h2{
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    
+    #exhibitHallBg{
+        height: 400px;
+    }
+    .exhibitItem{
+        width: 50%;
+        height: 200px;
+    }
+}
 
 
 

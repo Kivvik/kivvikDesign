@@ -1,0 +1,1281 @@
+#advisors{
+    overflow-x: hidden;
+}
+
+
+#advisorHero{
+    width: 100%;
+    height: 75vh;
+    min-height: 400px;
+    position: relative;
+    display: block;
+    max-height: 100%;
+    background: url(https://s3.amazonaws.com/memcord-preview/landing_page_assets/advisor/advisorbgImg.jpg) no-repeat center center ; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#advisorHeroImgLarge{
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+}
+
+#advisorHeaderName{
+    max-width: 500px;
+    height: auto;
+    position: relative;
+    display: block;
+    margin: 0px auto;
+    padding-top: 0px;
+    top: 50%;
+    transform: translateY(-50%);
+    position: relative;
+}
+
+#advheaderLogo{
+    width: 100px;
+    height: 140px;
+    display: inline-block;
+    float: left;
+    padding-left: 10px;
+    padding-right: 20px;
+}
+
+#ahlImg{
+    width: 100%;
+    
+}
+
+#advHeaderText{
+    width: calc(100% - 200px);
+    height: 130px;
+    display: inline-block;
+    float: left;    
+}
+
+#advHeaderText h1{
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: 500;
+    padding-left: 20px;
+    letter-spacing: 1px;
+    padding-top: 30px;
+    font-size: 36px;
+}
+
+
+
+#h2Adiv{
+    max-width: 600px;
+    margin: 0px auto;
+    display: block;
+    padding-top: 150px;
+}
+
+#h2Advisor{
+    text-align: center;
+    color: #fff;
+    font-size: 16px;
+    display: block;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+}
+
+#h2AdvisorSpace{
+    width: 10px; 
+}
+
+#sigupHeroLinkDiv{
+    max-width: 250px;
+    height: auto;
+    padding-top: 40px;
+    margin: 0px auto;
+    display: block;
+    padding-bottom: 60px;
+}
+
+
+#signUpheroBtn{
+    padding: 10px;
+    text-align: center;
+    margin: 0px auto;
+    display: block;
+    max-width: 200px;
+    border-radius:40px;
+    border: 1px rgba(255,255,255,0.4) solid;
+    color: #fff;
+    font-weight: 900;
+    text-transform: uppercase;
+    font-size: 12px;
+    opacity: 0.8;
+    letter-spacing: 0.6px;
+}
+
+#signUpheroBtn:hover{
+    opacity: 1;
+    
+}
+
+@media(max-width: 400px){
+    #advheaderLogo{
+        display: block;
+        margin: 0px auto;
+        padding: 0px;
+        float: none;
+    }
+    #advHeaderText{
+        width: 90%;
+        margin: 0px auto;
+        text-align: center;
+        display: block;
+        height: 100px;
+    }
+    #h2Adiv{
+        padding-top: 80px;
+        width: 90%;
+        margin: 0px auto;
+    }
+}
+
+@media(max-width: 500px){
+    #advHeaderText h1{
+        padding-top: 0px;
+    }
+}
+
+#trailerBtn{
+    max-width: 180px;
+    height: auto;
+    margin: 0px auto;
+    display: block;
+    padding-bottom: 120px;
+}
+
+#trailerIcon{
+    width: 60px;
+    display: inline-block;
+    float: left;
+}
+
+#trailerIcoImg{
+    width: 30px;
+    float: right;
+}
+
+#trailerText{
+    width: calc(100% - 60px);
+    float: left;
+    display: block;
+}
+
+#trailerText p{
+    font-size: 10px;
+    font-weight: 900;
+    text-transform: uppercase;
+    color: #fff;
+    padding-left: 10px;
+    padding-top: 8px;
+}
+
+
+#advisorSection2{
+    width: 100%;
+    height: 400px;
+    background: white;
+}
+
+#advSec2Container{
+    max-width: 800px;
+    margin: 0px auto;
+    height: auto;
+    z-index: 10;
+    position: absolute;
+    width: 100%;
+    left: 0;
+  right: 0;
+  margin: 0 auto;
+    margin-top: -50px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.4);
+}
+
+#advSec2Row1{
+    width: 100%;
+    height: 250px;
+    display: block;
+    position: relative;
+}
+
+#advSec2Row2{
+    width: 100%;
+    height: 250px;
+    display: block;
+    position: relative;
+}
+
+#advSec2MissionDiv{
+    width: 250px;
+    height: 250px;
+    background: #fff;
+    display: inline-block;
+    float: left;
+}
+
+#advsec2MissionImgDiv{
+    width: calc(100% - 250px);
+    height: 250px;
+    display: inline-block;
+    float: left;
+    background: url(/img/advisors/Img1.png) no-repeat center center ; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#advSec2ExpectImgDiv{
+    width: 250px;
+    height: 250px;
+    display: inline-block;
+    float: left;
+    background: url(/img/advisors/Img2.png) no-repeat center center ; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#advSec2ExpectDiv{
+    width: calc(100% - 250px);
+    height: 250px;
+    display: inline-block;
+    float: left;
+    background: #fff;
+}
+
+#advSec2MissionDivH2{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 500;
+    color: #252525;
+    font-size: 20px;
+    padding-top: 80px;
+}
+
+#advSec2MissionDivP{
+    text-align: center;
+    font-size: 14px;
+    color: #92969c;
+    padding: 10px;
+}
+
+@media(max-width: 800px){
+    #advisorSection2{
+        height: 400px;
+    }
+    #advSec2Container{
+        
+    }
+    #advSec2Row2{
+        height: auto;
+    }
+    #advSec2ExpectImgDiv{
+        width: 100%;
+        display: none;
+        float: none;
+        height: 150px;
+        
+    }
+    #advSec2ExpectDiv{
+        width: 100%;
+    }
+    #advsec2MissionImgDiv{
+        display: none;
+    }
+    #advSec2MissionDiv{
+        width: 100%;
+        height: 150px;
+    }
+    #advSec2MissionDivP{
+        width: 90%;
+        max-width: 300px;
+        margin: 0px auto;
+    }
+}
+
+
+#advisorSection3{
+    background: url(/img/advisors/roibg.png) no-repeat center center ; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+    width: 100%;
+    min-height: 600px;
+    height: auto;
+}
+
+#advSec2ExpectDivH2{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 500;
+    color: #252525;
+    font-size: 20px;
+    padding-top: 40px;
+}
+
+#advSec2ExpectContentCont{
+    width: 95%;
+    margin: 0px auto;
+    display: block;
+    
+}
+
+#aS2ECContent{
+    width: 25%;
+    display: inline-block;
+    float: left;
+}
+
+.aS2ECContentDivImg{
+    height: 30px;
+    padding-top: 40px; 
+    margin: 0px auto;
+    display: block;
+}
+
+.aS2ECContentImg{
+    height: 30px;
+    display: block;
+    margin: 0px auto;
+}
+
+.aS2ECContentDivP{
+    text-align: center;
+    font-size: 14px;
+    color: #92969c;
+    padding: 5px;
+    padding-top: 20px;
+}
+
+
+#advisorSection3Container{
+    max-width: 800px;
+    margin: 0px auto;
+    width: 95%;
+    display: block;
+    position: relative;
+    padding-top: 160px;
+}
+
+#aS3HeaderCont{
+    width: 100%;
+    
+}
+
+#aS3HeaderCont h2{
+    font-size: 14px;
+    font-weight: 700;
+    color: #c1c8d0;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+#aS3HeaderCont h3{
+    font-size: 28px;
+    font-weight: 500;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding-top: 10px;
+}
+
+#aS3ItemCont{
+    width: 100%;
+    padding-top: 60px;
+}
+
+.aS3Item{
+    width: 25%;
+    float: left;
+    display: inline-block;
+}
+
+.aS3Item h4{
+    font-size: 24px;
+    font-weight: 400;
+    padding-bottom: 5px;
+    letter-spacing: .5px;
+}
+
+.aS3Item h5{
+    font-size: 20px;
+    font-weight: 400;
+    padding-bottom: 15px;
+    letter-spacing: .5px;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.aS3Item p{
+    font-size: 13px;
+    font-weight: 400;
+    padding-bottom: 5px;
+    letter-spacing: .5px;
+    color: #c1c8d0;
+    padding-right: 10px;
+}
+
+@media(max-width: 600px){
+    .aS3Item{
+        width: 50%;
+        margin-bottom: 10px;
+    }
+    #aS3ItemCont{
+        padding-bottom: 280px;
+        height: auto;
+        margin-bottom: 40px;
+    }
+}
+
+
+#advisorSection4{
+    width: 100%;
+    height: 400px;
+    background: white;
+}
+
+#advSec4Row{
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+#advSec4Row1GlaceCont{
+    width: 50%;
+    display: inline-block;
+    float: left;
+    height: 250px;
+}
+
+#advSec4RowAvgAge{
+    width: 50%;
+    display: inline-block;
+    float: left;
+    height: 250px;
+}
+
+#advSec4Row1GlaceText{
+    min-width: 200px;
+    width: 50%;
+    height: 250px;
+    float: left;
+    display: inline-block;
+    background: #fff;
+}
+
+#advSec4Row1GlaceText h2{
+    top: 50%;
+    transform: translateY(-50%);
+    position: relative;
+    text-align: center;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 500;
+    padding: 10px;
+    color: #252525;
+}
+
+#advSec4Row1GlaceImg{
+    width: 50%;
+    min-width: calc(100%-200px);
+    height: 250px;
+    float: left;
+    display: inline-block;
+    background: url(/img/advisors/glaceImg.png) no-repeat center center ; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#advSec4Row1AvgText{
+    min-width: 200px;
+    width: 50%;
+    height: 250px;
+    float: left;
+    display: inline-block;
+    background: #fff;
+}
+
+#advSec4Row1AvgText div{
+    top: 50%;
+    transform: translateY(-50%);
+    position: relative;
+    text-align: center;
+    padding: 10px;
+}
+
+#advSec4Row1AvgText div h2{
+    font-size: 16px;
+    font-weight: 700;
+    text-align: left;
+    color: #92969c;
+    padding-bottom: 5px;
+}
+
+#advSec4Row1AvgText div p{
+    font-size: 36px;
+    font-weight: 500;
+    text-align: left;
+    color: #252525;
+}
+
+
+#advSec4Row1AvgImg{
+    width: 50%;
+    min-width: calc(100%-200px);
+    height: 250px;
+    float: left;
+    display: inline-block;
+    background: url(/img/advisors/ageImg.png) no-repeat center center ; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#adSec4Row2SalarySection{
+    width: 50%;
+    display: inline-block;
+    float: left;
+    height: 250px;
+}
+
+#adSec4Row2SalaryImg{
+    width: 50%;
+    min-width: calc(100%-200px);
+    height: 250px;
+    float: left;
+    display: inline-block;
+    background: url(/img/advisors/salaryImg.png) no-repeat center center ; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#adSec4Row2SalaryText{
+    min-width: 200px;
+    width: 50%;
+    height: 250px;
+    float: left;
+    display: inline-block;
+    background: #fff;
+}
+
+#adSec4Row2SalaryText div{
+    top: 50%;
+    transform: translateY(-50%);
+    position: relative;
+    text-align: center;
+    padding: 10px;
+}
+
+#adSec4Row2SalaryText div h2{
+    font-size: 16px;
+    font-weight: 700;
+    text-align: left;
+    color: #92969c;
+    padding-bottom: 5px;
+}
+
+#adSec4Row2SalaryText div p{
+    font-size: 30px;
+    font-weight: 500;
+    text-align: left;
+    color: #252525;
+}
+
+#advSec4Row2Attend{
+    width: 50%;
+    float: left;
+    display: inline-block;
+    height: 250px;
+    background: url(/img/advisors/attendee30K.png) no-repeat center center ; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#advSec4Row2AttendDiv{
+    padding: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    position: relative;
+    max-width: 200px;
+    margin: 0px auto;
+}
+
+#advSec4Row2AttendDiv h2{
+    font-size: 16px;
+    color: #fff;
+    font-weight: 500;
+    padding-bottom: 5px;
+}
+
+#advSec4Row2AttendDiv h3{
+    font-size: 46px;
+    color: #fff;
+    font-weight: 500;
+    padding-bottom: 15px;
+}
+
+#attendeeSignUpBtn{
+    padding: 10px;
+    text-align: center;
+    margin: 0px auto;
+    display: block;
+    max-width: 200px;
+    border-radius:40px;
+    border: 1px rgba(255,255,255,0.4) solid;
+    color: #fff;
+    font-weight: 900;
+    text-transform: uppercase;
+    font-size: 12px;
+    opacity: 0.8;
+    letter-spacing: 0.6px;
+}
+
+#attendeeSignUpBtn:hover{
+    opacity: 1;
+}
+
+@media(max-width:414px){
+    #advisorSection2{
+        height: 500px;
+    }
+    #advSec2Container{
+        box-shadow: none;
+    }
+    #advSec2Row2{
+        padding-bottom: 50px;
+    }
+    #advisorSection4{
+        height: 2000px;
+    }
+    #advSec2Container{
+        width: 100%;
+    }
+    
+    #advSec4Row1GlaceText{
+        width: 100%;  
+        display: block;
+        margin: 0px auto;
+        float: none;
+    }
+    #advSec4Row{
+        height: 500px;
+    }
+    
+    #advSec4RowAvgAge, #advSec4Row1GlaceCont{
+        width: 100%;
+        display: block;
+        float: none;
+        height: auto;
+    }
+    #advSec4Row1GlaceText{
+        width: 100%;
+        height: 200px;
+    }
+    #advSec4Row1GlaceImg{
+        width: 100%;
+        height: 200px;
+    }
+    #advSec4Row1AvgText{
+        width: 100%;
+        height: 200px;
+    }
+    #advSec4Row1AvgText div h2{
+        text-align: center;
+    }
+    #advSec4Row1AvgText div p{
+        text-align: center;
+    }
+    #advSec4Row1AvgImg{
+        width: 100%;
+        height: 200px;
+    }
+    #adSec4Row2SalarySection{
+        width: 100%;
+        height: 200px;
+    }
+    #adSec4Row2SalaryImg{
+        display: none;
+    }
+    #adSec4Row2SalaryText{
+        width: 100%;
+        height: 200px;
+    }
+    #adSec4Row2SalaryText div h2{
+        text-align: center;
+    }
+    #adSec4Row2SalaryText div p{
+        text-align: center;
+    }
+    #advSec4Row2AttendDiv h2{
+        text-align: center;
+    }
+    #advSec4Row2AttendDiv h3{
+        text-align: center;
+    }
+}
+
+@media(max-width: 800px){
+    #advisorSection4{
+        height: 900px;   
+    }
+    #advSec2Container{
+        width: 100%;
+    }
+    #advSec4Row{
+        
+    }
+    .adv2ItemContainer{
+        width: 100% !important;
+        display: block;
+        float: none;
+    }
+}
+
+
+
+
+
+
+
+.darkblue{
+    color: #4777db;
+}
+
+.skyblue{
+    color: #4fc6de;
+}
+
+.lightblue{
+    color: #00b3ff;
+}
+
+.purple{
+    color: #8272fa;
+}
+
+
+#reapSection{
+    background: url(/img/advisors/reapBgImg.png) no-repeat center center ; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+    width: 100%;
+    height: 300px;
+    position: relative;
+    display: block;
+}
+
+#reapSection div{
+    padding: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    position: relative;
+}
+
+#reapSection div h2{
+    text-align: center;
+    font-weight: 500;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 32px;
+}
+
+#perksSection{
+    width: 100%;
+    min-height: 500px;
+    background: #f2f2f2;
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+#perksHeadingSection{
+    max-width: 400px;
+    margin: 0px auto;
+    display: block;
+}
+
+#perksHeadingSection h2{
+    text-align: center;
+    color: #252525;
+    font-size: 32px;
+    font-weight: 500;
+    padding-bottom: 10px;
+    text-transform: uppercase;
+}
+
+#perksHeadingSection p{
+    text-align: center;
+    color: #92969c;
+    font-size: 18px;
+    font-weight: 400;
+    padding-bottom: 10px;
+}
+
+#perksContainer{
+    max-width: 800px;
+    margin: 0px auto;
+    padding-top: 80px;
+    width: 90%;
+}
+
+.perksContentDiv{
+    width: 100%;
+    padding-bottom: 60px;
+    position: relative;
+    display: block;
+    min-height: 240px;
+    height: auto;
+}
+
+.perksContentText{
+    width: 50%;
+    display: inline-block;
+    float: left;
+}
+
+.perksContentImg{
+    width: 50%;
+    display: inline-block;
+    float: left;
+}
+
+.perksContentText h3{
+    color: #252525;
+    font-weight: 500;
+    font-size: 20px;
+    padding-bottom: 10px;
+    padding-top: 40px;
+}
+
+.perksContentText p{
+    color: #92969c;
+    font-weight: 400;
+    font-size: 16px;
+    padding-bottom: 10px;
+    max-width: 350px;
+}
+
+#perksContentImg1{
+    max-width: 380px;
+    display: block;
+    margin: 0px auto;
+}
+
+#perksContentImg2{
+    max-width: 200px;
+    display: block;
+    margin: 0px auto;
+    padding-top: 40px;
+}
+
+#perksContentImg3{
+    max-width: 260px;
+    display: block;
+    margin: 0px auto;
+    padding-top: 20px;
+}
+
+
+@media(max-width: 500px){
+    .perksContentText{
+        width: 100%;
+        display: block;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    .perksContentText h3{
+        
+    }
+    .perksContentText p{
+        margin: 0px auto;
+    }
+    .perksContentImg{
+        float: none;
+        display: block;
+        width: 100%;
+    }
+    .perksContentImg img{
+        width: 100%;
+        min-width: 300px;
+        max-width: 400px;
+        margin: 0px auto;
+        display: block;
+        position: relative;
+    }
+    #perksContentImg2{
+        min-width: 200px;
+        margin: 0px auto !important;
+        display: block;
+        float: none;
+    }
+}
+
+#managementTeamSec1{
+    background: url(https://s3.amazonaws.com/memcord-preview/landing_page_assets/advisor/mgmtteamsec1Img.jpg) no-repeat center center ; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+    width: 100%;
+    height: 400px;
+    position: relative;
+    display: block;
+}
+
+#managementTeamSec1 div{
+    padding: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    position: relative;
+}
+
+#managementTeamSec1 div h2{
+    text-align: center;
+    font-weight: 500;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 32px;
+}
+
+#advisorSection6{
+    width: 100%;
+    height: 400px;
+    background: white;
+}
+
+
+#advSecMgmtTeamContainer{
+    max-width: 800px;
+    margin: 0px auto;
+    height: auto;
+    z-index: 10;
+    position: absolute;
+    width: 100%;
+    left: 0;
+  right: 0;
+  margin: 0 auto;
+    margin-top: -50px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.4);
+}
+
+#advSecMgmtTeamRow{
+    width: 100%;
+    display: block;
+    height: auto;
+}
+
+#advSectTeamMember{
+    width: 50%;
+    display: inline-block;
+    float: left;
+    height: 250px;
+}
+
+.memberImg{
+    width: 50%;
+    float: left;
+    height: 250px;
+    display: inline-block;
+}
+
+#advSectMemberImg1{
+    background: url(/img/advisors/brian.png) no-repeat center center ; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#advSectMemberDetails{
+    min-width: 200px;
+    width: 50%;
+    height: 250px;
+    float: left;
+    display: inline-block;
+    background: #fff;
+}
+
+#advSectMemberDetails div{
+    padding: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    position: relative;
+}
+
+#advSectMemberDetails div h3{
+    font-size: 10px;
+    color: #5bcccd;
+    text-transform: uppercase;
+    font-weight: 900;
+    padding-bottom: 6px;
+}
+#advSectMemberDetails div h4{
+    font-size: 18px;
+    color: #252525;
+    text-transform: uppercase;
+    font-weight: 500;
+    padding-bottom: 5px;
+}
+#advSectMemberDetails div p{
+    font-size: 14px;
+    color: #92969c;
+    font-weight: 500;
+    padding-bottom: 25px;
+}
+
+#advSectMemberDetails div a{
+    font-size: 12px;
+    color: #007bb6;
+    font-weight: 900;
+    padding-bottom: 5px;
+    text-transform: uppercase;
+}
+
+
+#advSectMemberImg2{
+    background: url(/img/advisors/kate.png) no-repeat center center ; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#advSectMemberImg3{
+
+    background: url(/img/advisors/Emmanuel.jpg) no-repeat center center ; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#advSectMemberImg4{
+    background: url(/img/advisors/Chike.jpg) no-repeat center center ; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+@media(max-width:414px){
+    #advisorSection6{
+        height: auto;
+        min-height: 800px;
+    }
+    #advSecMgmtTeamRow{
+        height: auto;
+        min-height: 500px;
+    }
+    #advSectTeamMember{
+        width: 100%;
+        height: 250px;
+        float: none;
+        display: block;
+    }
+    #advSectMemberDetails{
+        width: 60%;
+        min-width: 0px;
+        
+    }
+    .memberImg{
+        width: 40%;
+    }
+}
+
+
+@media(max-width:800px){
+    #advSectTeamMember{
+        width: 100%;
+        display: block;
+        float: none;
+    }
+    #advSecMgmtTeamRow{
+        
+    }
+    #advSecMgmtTeamContainer{
+        width: 100%;
+        
+    }
+    #advisorSection6{
+        height: 800px;
+    }
+}
+
+
+#advSignUpSection{
+    width: 100%;
+    min-height: 400px;
+    background: #1d2029;
+    padding-bottom: 60px;
+}
+
+#advSignUpSection h2{
+    font-weight: 500;
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 40px;
+    padding: 10px;
+    padding-top: 160px;
+}
+
+#AdvVolFormContainer{
+    max-width: 700px;
+    margin: 0px auto;
+    padding: 10px;
+    width: 90%;
+    position: relative;
+    padding-top: 30px;
+}
+
+#fieldName{
+    display: inline-block;
+    float: left;
+    width: calc(40% - 30px);
+    margin-right: 10px;
+    margin-left: 10px;
+    padding-left: 10px;
+    height: 50px;
+	font-size: 14px;
+	border: #252832 1px solid;
+	background: #252832;
+	color: #fff;
+}
+
+#fieldEmail{
+    display: inline-block;
+    float: left;
+    width: calc(40% - 30px);
+    margin-right: 10px;
+    margin-left: 10px;
+    padding-left: 10px;
+    height: 50px;
+	font-size: 14px;
+	border: #252832 1px solid;
+	background: #252832;
+	color: #fff;
+}
+
+#submitBtn{
+    display: inline-block;
+    float: left;
+    width: calc(20% - 20px);
+    margin-right: 10px;
+    margin-left: 10px;
+    height: 50px;
+	background: #4777db;
+	border:none;
+  	font-size: 14px;
+  	color:#fff;
+	text-transform: uppercase;
+	font-size: 14px;
+	font-weight: 700;
+    text-align: center;
+}
+
+#submitBtn:hover{
+    background: #3f69c0;
+}
+
+
+@media(max-width:700px){
+    #advSignUpSection h2{
+        padding-top: 240px;
+    }
+    #AdvVolFormContainer{
+        width: 90%;
+        margin: 0px auto;
+        max-width: 400px;
+    }
+    #fieldName, #fieldEmail{
+        width: calc(100%); 
+        margin: 0px;
+        margin-bottom: 20px;
+        display: block;
+        float: none;
+    }
+    #submitBtn{
+        width: 100%;
+        float: none;
+        margin: 0px;
+        
+    }
+}
+
+footer{
+    background-color: #1d2029;
+}
+
+.footerWrapper h1{
+    color: #fff;
+}
+
+.footerWrapper h2{
+    color: #5bcccd;
+}
+
+.greyText{
+    color: #92969c !important;
+}
+
+a{
+    text-decoration: none;
+}
+
+.hide{
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,66 @@
+#thankyouContent{
+	width: 100%;
+	display: block;
+	margin: 0px auto;
+	padding-top: 20px;
+    position: relative;
+    height: 100%;
+    
+}
+
+#thankyoucontainter{
+	max-width: 800px;
+	width: 95%;
+	margin: 0px auto;
+	display: block;
+    top: 50%;
+    transform: translateY(-50%);
+    position: relative;
+}
+
+#thankyouImg{
+	width: 100%;
+    max-width: 800px;
+    margin: 0px auto;
+    display: block;
+    padding-bottom: 0px;
+    
+}
+
+#thankYouH1{
+	text-align: center;
+	text-transform: uppercase;
+	color: #c1c8d0;
+	font-weight: 600;
+	font-size: 26px;
+	max-width: 400px;
+	padding-top: 40px;
+	margin: 0px auto;
+	line-height: 32px;
+}
+
+#thankyouHome{
+	width: 180px;
+	margin: 0px auto;
+	display: block;
+	margin-top: 60px;
+	
+}
+
+#homeLink{
+	text-align: center;
+	font-size: 14px;
+	color: #92969c;
+	font-weight: 600;
+	padding: 10px 40px;
+	border: 1px solid #d7e3f0;
+	border-radius: 2px;
+	text-transform: uppercase;
+	margin: 0px auto;
+}
+
+#homeLink:hover{
+	color: #fff;
+	background: #567fbd;
+	border: 1px solid #567fbd;
+}

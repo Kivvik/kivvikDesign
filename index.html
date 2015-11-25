@@ -7,16 +7,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="icon" type="image/png" href="/img/global/favicon.png" />
     <meta property="og:image" content="https://s3.amazonaws.com/my-money-conf-landing/social/MMCLinkPlaceholder.jpg" />
-    
+    <link rel="stylesheet" href="css/style.css">
 	<link href="/css/global.css" rel="stylesheet" type="text/css">
     <link href="/css/home.css" rel="stylesheet" type="text/css">
-      <link rel="stylesheet" href="css/hamburgler.css">
-
     
     <script type="text/javascript" src="js/jquery-1.11.1.min.js"> </script>
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800italic,800' rel='stylesheet' type='text/css'>
     <script src="http://code.jquery.com/jquery-2.1.3.js">
   </script>
+    <script src="js/modernizr.js"></script>
     
     
     <!--Google Analytics Code-->
@@ -32,6 +31,7 @@
     </script>
 </head>
 <body id="home">
+    <main class="cd-main-content">
     <header id="desktopHeader">
         <div class="dHeader">
             <div class="dHeaderLogo">
@@ -50,21 +50,10 @@ we can help!</p>
         </div>
     </header>
     
-    <div class="mobilenav">
-          <li><a href="/index.html">Never</a></li>
-          <li><a href="#">Gonna</a></li>
-          <li><a href="#">Give</a></li>
-          <li><a href="#">You</a></li>
-          <li><a href="#">Up</a></li>
-        </div>
-
-        <a href="javascript:void(0)" class="icon">
-          <div class="hamburger">
-            <div class="menui top-menu"></div>
-            <div class="menui mid-menu"></div>
-            <div class="menui bottom-menu"></div>
-          </div>
-    </a>
+    <div class="mobileHeader">
+        <a id="cd-menu-trigger" href="#0"><span class="cd-menu-text">Menu</span><span class="cd-menu-icon"></span></a>
+    </div>
+   
     
     <section id="homeHeaderHero">
         <div id="largeImgHero">
@@ -425,7 +414,29 @@ Discussion<br> Groups</h3>
         </div>
     </section>
     
+    </main>
     
+    <nav id="cd-lateral-nav">
+        <ul class="cd-navigation">
+            <li class="item-has-children">
+                <a href="#0">Products</a>
+                <ul class="sub-menu">
+                    <!-- all its children here -->
+                </ul>
+            </li>
+            <!-- other .item-has-children here -->
+        </ul>
+        <ul class="cd-navigation cd-single-item-wrapper">
+            <li><a href="#0">Info</a></li>
+            <!-- other simple items here -->
+        </ul>
+        <div class="cd-navigation socials">
+            <a class="cd-twitter cd-img-replace" href="#0">Twitter</a>
+            <a class="cd-github cd-img-replace" href="#0">Git Hub</a>
+            <a class="cd-facebook cd-img-replace" href="#0">Facebook</a>
+            <a class="cd-google cd-img-replace" href="#0">Google Plus</a>
+        </div>
+    </nav>
     
     
     <script type="text/javascript">
@@ -434,12 +445,38 @@ Discussion<br> Groups</h3>
         };
     </script>
     
-    
-    
-    <script src="/js/hamburgler.js"> </script>
-    
+    <script src="js/main.js"></script>
+        
 </body>
 </html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

@@ -1104,11 +1104,29 @@
 
 
 
+/*Mobile Side Nav*/
+#cd-lateral-nav{
+    background: #252525;
+}
 
+#mobileSideInside{
+    width: 90%;
+    margin: 0px auto;
+    height: calc(100% - 60px);
+    margin-top: 60px;
+}
 
+#mobileSideInside ul{
+    display: list-item;
+    text-align: center;
+}
 
-
-
+#mobileSideInside ul li{
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: 700;
+     list-style:none;
+}
 
 
 

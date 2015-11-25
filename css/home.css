@@ -1112,22 +1112,10 @@
 }
 
 #mobileSideInside{
-    width: 90%;
+    width: 80%;
     margin: 0px auto;
-    height: calc(100% - 60px);
-    margin-top: 60px;
-}
-
-#mobileSideInside ul{
-    display: list-item;
-    text-align: center;
-}
-
-#mobileSideInside ul li{
-    text-transform: uppercase;
-    color: #fff;
-    font-weight: 700;
-     list-style:none;
+    height: calc(100% - 20px);
+    margin-top: 20px;
 }
 
 #cd-menu-trigger{
@@ -1150,6 +1138,21 @@
     background-color: #252525;
 }
 
+.mobileMenuHeading{
+    color: #fff;
+    font-weight: 900;
+    text-transform: uppercase;
+    font-size: 0.8em;
+    padding-bottom: 10px;
+    padding-top: 20px;
+}
+
+.mobileMenuLink{
+    color: #92969c;
+    font-size: 0.8em;
+    font-weight: 400;
+    padding-bottom: 5px;
+}
 
 
 

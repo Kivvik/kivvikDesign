@@ -1,4 +1,5 @@
 #home{
+    background: #fff;
 }
 
 #desktopHeader{
@@ -82,6 +83,7 @@
     height: 50px;
     position: absolute;
     display: block;
+    background: #fff;
 }
 
 .mHamburgerMenu{
@@ -1128,11 +1130,25 @@
      list-style:none;
 }
 
+#cd-menu-trigger{
+    background: #fff;
+}
 
+.cd-menu-icon{
+    background-color: #252525;
+}
 
+.cd-menu-icon::before{
+    background: #252525;
+}
 
+#cd-menu-trigger .cd-menu-icon{
+    background-color: #252525;
+}
 
-
+#cd-menu-trigger.is-clicked .cd-menu-icon::before, #cd-menu-trigger.is-clicked .cd-menu-icon::after{
+    background-color: #252525;
+}
 
 
 

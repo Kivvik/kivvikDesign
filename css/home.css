@@ -347,6 +347,8 @@
     position: relative;
     font-size: 24px;
     line-height: 32px;
+        font-weight: 900;
+
 }
 
 .attendSec2RightText{
@@ -588,12 +590,7 @@
     font-size: 11px;
     text-transform: uppercase;
     border: 2px solid #fff;
-    color: #fff;
-}
-
-.tileLabel h4:hover{
-    color: 252525;
-    border: 2px solid #fff;
+    color: #252525;
     background: #fff;
 }
 
@@ -602,9 +599,10 @@
 }
 
 .tileText h5{
-    font-size: 28px;
+    font-size: 26px;
     color: #fff;
     padding-bottom: 10px;
+    font-weight: 900;
 }
 
 .tileText p{
